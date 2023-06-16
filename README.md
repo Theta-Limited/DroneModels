@@ -6,8 +6,10 @@ CMOS/CCD specifications in order to make arbitrary point selection
 more accurate.  Use the linux command-line utility jq to syntax check
 the json file before you commit it.
 
+```
 % jq . droneModels.json
 % echo $?
+```
 
 The exit code should be 0 if the file is syntactically correct.
 
