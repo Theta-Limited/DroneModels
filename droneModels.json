@@ -9,11 +9,11 @@
       "heightPixels": 3000,
       "comment": "DJI Mavic Pro / Mavic Pro Platinum",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.032984,
+      "radialR2": -0.0855974,
+      "radialR3": 0.0777778,
+      "tangentialT1": 0.000409773,
+      "tangentialT2": -0.000806846
     },
     {
       "makeModel": "djiFC230",
