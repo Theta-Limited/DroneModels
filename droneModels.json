@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sun Jun 25 08:27:28 PM EDT 2023",
+  "lastUpdate": "Sun Jun 25 08:32:18 PM EDT 2023",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -12,8 +12,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC230",
@@ -26,8 +26,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC330",
@@ -40,8 +40,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC6310",
@@ -54,8 +54,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC6310S",
@@ -68,8 +68,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC6360",
@@ -82,8 +82,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC300C",
@@ -96,8 +96,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC300S",
@@ -110,8 +110,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC300X",
@@ -124,8 +124,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC300XW",
@@ -138,8 +138,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC200",
@@ -152,8 +152,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiPHANTOM VISION FC200",
@@ -166,8 +166,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC7203",
@@ -180,8 +180,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC7303",
@@ -194,8 +194,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC3582",
@@ -208,8 +208,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC2200",
@@ -222,8 +222,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC2204",
@@ -236,8 +236,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiL1D-20C",
@@ -250,8 +250,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiL2D-20C",
@@ -264,8 +264,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC4170",
@@ -278,8 +278,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiM3E",
@@ -292,8 +292,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiM3T",
@@ -306,8 +306,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC2103",
@@ -320,8 +320,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC2403",
@@ -334,8 +334,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC3170",
@@ -348,8 +348,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC3411",
@@ -362,8 +362,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC6510",
@@ -376,8 +376,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC550",
@@ -390,8 +390,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC550RAW",
@@ -404,8 +404,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC550R",
@@ -418,8 +418,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC6520",
@@ -432,8 +432,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC6540",
@@ -446,8 +446,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZENMUSEH20",
@@ -460,8 +460,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZH20",
@@ -474,8 +474,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZENMUSEH20T",
@@ -488,8 +488,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZH20T",
@@ -502,8 +502,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZENMUSEH20W",
@@ -516,8 +516,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZH20W",
@@ -530,8 +530,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZENMUSEH20N",
@@ -544,8 +544,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZH20N",
@@ -558,8 +558,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiMAVIC2-ENTERPRISE-ADVANCED",
@@ -572,8 +572,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiM2EA",
@@ -586,8 +586,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "ZENMUSEP1",
@@ -600,8 +600,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "ccdWidthMMPerPixel": "34.824566/8192.0",
@@ -614,8 +614,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZENMUSEXT2",
@@ -628,8 +628,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFLIR",
@@ -642,8 +642,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiXT2",
@@ -656,8 +656,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiXT S",
@@ -670,8 +670,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZENMUSEZ30",
@@ -684,8 +684,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiZ30",
@@ -698,8 +698,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "djiFC1102",
@@ -712,8 +712,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "skydioR1",
@@ -726,8 +726,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "skydio2",
@@ -740,8 +740,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "skydio2+",
@@ -754,8 +754,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "skydioX2",
@@ -768,8 +768,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "skydioX2E",
@@ -782,8 +782,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "skydioX2D",
@@ -796,8 +796,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "Autel RoboticsXT701",
@@ -810,8 +810,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "Autel RoboticsXT705",
@@ -824,8 +824,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "Autel RoboticsXT709",
@@ -838,8 +838,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "parrotANAFI",
@@ -852,8 +852,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "parrotANAFIUSA",
@@ -866,8 +866,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "parrotANAFIUA",
@@ -880,8 +880,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "parrotANAFIAI",
@@ -894,8 +894,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     },
     {
       "makeModel": "parrotBEBOP 2",
@@ -908,8 +908,8 @@
       "radialR1": 0,
       "radialR2": 0,
       "radialR3": 0,
-      "tangentalT1": 0,
-      "tangentalT2": 0
+      "tangentialT1": 0,
+      "tangentialT2": 0
     }
   ]
 }
