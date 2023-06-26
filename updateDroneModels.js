@@ -28,7 +28,7 @@ function readJSONFile(filename, callback) {
 }
 
 function writeJSONToFile(filename, jsonData, callback) {
-  const jsonString = JSON.stringify(jsonData, null, 2);
+    const jsonString = JSON.stringify(jsonData,null,2)
 
   fs.writeFile(filename, jsonString, 'utf8', (err) => {
     if (err) {
@@ -51,12 +51,12 @@ function updateDroneParams(jsonData) {
 	// add the addtional fields
 	// "perspective" or "fisheye"
 	jsonData.droneCCDParams[i].lensType = "perspective"
-	jsonData.droneCCDParams[i].radialR1 = 0.0
-	jsonData.droneCCDParams[i].radialR2 = 0.0
-	jsonData.droneCCDParams[i].radialR3 = 0.0
-	jsonData.droneCCDParams[i].tangentalT1 = 0.0
-	jsonData.droneCCDParams[i].tangentalT2 = 0.0
-	jsonData.droneCCDParams[i].tangentalT3 = 0.0
+	jsonData.droneCCDParams[i].radialR1 = 0.00
+	jsonData.droneCCDParams[i].radialR2 = 0.00
+	jsonData.droneCCDParams[i].radialR3 = 0.00
+	jsonData.droneCCDParams[i].tangentalT1 = 0.00
+	jsonData.droneCCDParams[i].tangentalT2 = 0.00
+	jsonData.droneCCDParams[i].tangentalT3 = 0.00
     }
 
     //console.log(jsonData)
