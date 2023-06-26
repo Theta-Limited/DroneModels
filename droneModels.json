@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sun Jun 25 08:10:21 PM EDT 2023",
+  "lastUpdate": "Sun Jun 25 08:22:35 PM EDT 2023",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -14,7 +14,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC230",
@@ -29,7 +32,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC330",
@@ -44,7 +50,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC6310",
@@ -59,7 +68,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC6310S",
@@ -74,7 +86,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC6360",
@@ -89,7 +104,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC300C",
@@ -104,7 +122,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC300S",
@@ -119,7 +140,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC300X",
@@ -134,7 +158,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC300XW",
@@ -149,7 +176,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC200",
@@ -164,7 +194,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiPHANTOM VISION FC200",
@@ -179,7 +212,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC7203",
@@ -194,7 +230,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC7303",
@@ -209,7 +248,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC3582",
@@ -224,7 +266,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC2200",
@@ -239,7 +284,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC2204",
@@ -254,7 +302,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiL1D-20C",
@@ -269,7 +320,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiL2D-20C",
@@ -284,7 +338,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC4170",
@@ -299,7 +356,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiM3E",
@@ -314,7 +374,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiM3T",
@@ -329,7 +392,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC2103",
@@ -344,7 +410,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC2403",
@@ -359,7 +428,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC3170",
@@ -374,7 +446,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC3411",
@@ -389,7 +464,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC6510",
@@ -404,7 +482,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC550",
@@ -419,7 +500,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC550RAW",
@@ -434,7 +518,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC550R",
@@ -449,7 +536,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC6520",
@@ -464,7 +554,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC6540",
@@ -479,7 +572,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZENMUSEH20",
@@ -494,7 +590,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZH20",
@@ -509,7 +608,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZENMUSEH20T",
@@ -524,7 +626,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZH20T",
@@ -539,7 +644,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZENMUSEH20W",
@@ -554,7 +662,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZH20W",
@@ -569,7 +680,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZENMUSEH20N",
@@ -584,7 +698,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZH20N",
@@ -599,7 +716,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiMAVIC2-ENTERPRISE-ADVANCED",
@@ -614,7 +734,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiM2EA",
@@ -629,7 +752,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "ZENMUSEP1",
@@ -644,7 +770,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "ccdWidthMMPerPixel": "34.824566/8192.0",
@@ -659,7 +788,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZENMUSEXT2",
@@ -674,7 +806,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFLIR",
@@ -689,7 +824,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiXT2",
@@ -704,7 +842,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiXT S",
@@ -719,7 +860,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZENMUSEZ30",
@@ -734,7 +878,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiZ30",
@@ -749,7 +896,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "djiFC1102",
@@ -764,7 +914,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "skydioR1",
@@ -779,7 +932,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "skydio2",
@@ -794,7 +950,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "skydio2+",
@@ -809,7 +968,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "skydioX2",
@@ -824,7 +986,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "skydioX2E",
@@ -839,7 +1004,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "skydioX2D",
@@ -854,7 +1022,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "Autel RoboticsXT701",
@@ -869,7 +1040,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "Autel RoboticsXT705",
@@ -884,7 +1058,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "Autel RoboticsXT709",
@@ -899,7 +1076,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "parrotANAFI",
@@ -914,7 +1094,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "parrotANAFIUSA",
@@ -929,7 +1112,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "parrotANAFIUA",
@@ -944,7 +1130,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "parrotANAFIAI",
@@ -959,7 +1148,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     },
     {
       "makeModel": "parrotBEBOP 2",
@@ -974,7 +1166,10 @@
       "radialR3": 0,
       "tangentalT1": 0,
       "tangentalT2": 0,
-      "tangentalT3": 0
+      "fishEyeC": 0,
+      "fishEyeD": 0,
+      "fishEyeE": 0,
+      "fishEyeF": 0
     }
   ]
 }

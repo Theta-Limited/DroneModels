@@ -56,7 +56,10 @@ function updateDroneParams(jsonData) {
 	jsonData.droneCCDParams[i].radialR3 = 0.00
 	jsonData.droneCCDParams[i].tangentalT1 = 0.00
 	jsonData.droneCCDParams[i].tangentalT2 = 0.00
-	jsonData.droneCCDParams[i].tangentalT3 = 0.00
+	jsonData.droneCCDParams[i].fishEyeC = 0.0
+	jsonData.droneCCDParams[i].fishEyeD = 0.0
+	jsonData.droneCCDParams[i].fishEyeE = 0.0
+	jsonData.droneCCDParams[i].fishEyeF = 0.0	
     }
 
     //console.log(jsonData)
