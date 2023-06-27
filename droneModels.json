@@ -841,8 +841,8 @@
     },
     {
       "makeModel": "parrotANAFI",
-      "ccdWidthMMPerPixel": "5.963396/5344",
-      "ccdHeightMMPerPixel": "4.428166/4016",
+      "ccdWidthMMPerPixel": "5.963396/5344.0",
+      "ccdHeightMMPerPixel": "4.428166/4016.0",
       "widthPixels": 5344,
       "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
@@ -855,8 +855,8 @@
     },
     {
       "makeModel": "parrotANAFIUSA",
-      "ccdWidthMMPerPixel": "5.963396/5344",
-      "ccdHeightMMPerPixel": "4.428166/4016",
+      "ccdWidthMMPerPixel": "5.963396/5344.0",
+      "ccdHeightMMPerPixel": "4.428166/4016.0",
       "widthPixels": 5344,
       "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
