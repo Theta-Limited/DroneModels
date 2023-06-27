@@ -37,11 +37,11 @@
       "heightPixels": 3000,
       "comment": "DJI Phantom 4, appears to be a Sony IMX377 CMOS https://forum.dji.com/thread-47292-1-1.html",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.001358830,
+      "radialR2": -0.00160514,
+      "radialR3": 0.000342187,
+      "tangentialT1": -0.000909776,
+      "tangentialT2": -0.00113887
     },
     {
       "makeModel": "djiFC6310",
@@ -51,11 +51,11 @@
       "heightPixels": 3648,
       "comment": "DJI Phantom 4 Pro, DJI Phantom 4 Advanced",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00298599,
+      "radialR2": -0.00769116,
+      "radialR3": 0.0079115,
+      "tangentialT1": -0.000129713,
+      "tangentialT2": 0.000221193
     },
     {
       "makeModel": "djiFC6310S",
@@ -79,11 +79,11 @@
       "heightPixels": 1300,
       "comment": "DJI Phantom 4 Multispectral, 1/2.9in CMOS sensor",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.511243,
+      "radialR2": 0.506718,
+      "radialR3": -0.545932,
+      "tangentialT1": 0.000234258,
+      "tangentialT2": 0.000360389
     },
     {
       "makeModel": "djiFC300C",
@@ -107,11 +107,11 @@
       "heightPixels": 3000,
       "comment": "DJI Phantom 3 SE",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.132438,
+      "radialR2": 0.111056,
+      "radialR3": -0.0158256,
+      "tangentialT1": 0.00011023,
+      "tangentialT2": 0.000114239
     },
     {
       "makeModel": "djiFC300X",
@@ -121,11 +121,11 @@
       "heightPixels": 3000,
       "comment": "DJI Phantom 3 SE",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.014393,
+      "radialR2": 0.0125235,
+      "radialR3": -0.000022309,
+      "tangentialT1": 0.00127711,
+      "tangentialT2": 0.000421167
     },
     {
       "makeModel": "djiFC300XW",
@@ -135,11 +135,11 @@
       "heightPixels": 3000,
       "comment": "DJI Phantom 3 SE",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.014393,
+      "radialR2": 0.0125235,
+      "radialR3": -0.000022309,
+      "tangentialT1": 0.00127711,
+      "tangentialT2": 0.000421167
     },
     {
       "makeModel": "djiFC200",
@@ -148,12 +148,11 @@
       "widthPixels": 4384,
       "heightPixels": 4384,
       "comment": "DJI Phantom 2 Vision",
-      "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "lensType": "fisheye",
+      "c": 3853.0,
+      "d": 6.74,
+      "e": 6.74,
+      "f": 3853.0
     },
     {
       "makeModel": "djiPHANTOM VISION FC200",
@@ -162,12 +161,11 @@
       "widthPixels": 4384,
       "heightPixels": 4384,
       "comment": "DJI Phantom 2 Vision",
-      "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "lensType": "fisheye",
+      "c": 3853.0,
+      "d": 6.74,
+      "e": 6.74,
+      "f": 3853.0
     },
     {
       "makeModel": "djiFC7203",
@@ -177,11 +175,11 @@
       "heightPixels": 3000,
       "comment": "DJI Mini",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.233997,
+      "radialR2": -0.711888,
+      "radialR3": 0.54711,
+      "tangentialT1": -0.000297843,
+      "tangentialT2": 0.000542823
     },
     {
       "makeModel": "djiFC7303",
@@ -247,11 +245,11 @@
       "heightPixels": 3648,
       "comment": "DJI Mavic 2 Pro, hasselblad",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00874622,
+      "radialR2": 0.0404995,
+      "radialR3": -0.0496908,
+      "tangentialT1": -0.00341694,
+      "tangentialT2": 0.00219427
     },
     {
       "makeModel": "djiL2D-20C",
@@ -261,11 +259,11 @@
       "heightPixels": 3956,
       "comment": "DJI Mavic 3 Main Hasselblad Camera",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.0044647,
+      "radialR2": -0.00549164,
+      "radialR3": 0.0246166,
+      "tangentialT1": -0.000468935,
+      "tangentialT2": -0.000564484
     },
     {
       "makeModel": "djiFC4170",
@@ -289,11 +287,11 @@
       "heightPixels": 3956,
       "comment": "DJI Mavic 3 Enterprise Main Hasselblad Camera",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.111398,
+      "radialR2": 0.0122439,
+      "radialR3": -0.0269388,
+      "tangentialT1": -0.000204996,
+      "tangentialT2": -0.000119487
     },
     {
       "makeModel": "djiM3T",
@@ -303,11 +301,11 @@
       "heightPixels": 6000,
       "comment": "DJI Mavic 3 Thermal (color camera)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.189023,
+      "radialR2": -0.45647,
+      "radialR3": 0.244984,
+      "tangentialT1": 0.000203758,
+      "tangentialT2": -0.000163233
     },
     {
       "makeModel": "djiFC2103",
@@ -317,11 +315,11 @@
       "heightPixels": 3032,
       "comment": "DJI Mavic 2 Enterprise Dual",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.181996,
+      "radialR2": -0.593144,
+      "radialR3": 0.418029,
+      "tangentialT1": 0.00112363,
+      "tangentialT2": -0.000343339
     },
     {
       "makeModel": "djiFC2403",
@@ -329,27 +327,27 @@
       "ccdHeightMMPerPixel": "4.944222/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
-      "comment": "DJI Mavic 2 Enterprise Dual thermal sensor, Teledyne FLIR Lepton 3.5 sensor, 160x120 px sensor, upscaled by software to 640x480 px",
+      "comment": "DJI Mavic 2 Enterprise Dual (color camera)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.02148245,
+      "radialR2": -0.000571985,
+      "radialR3": 0.015372923,
+      "tangentialT1": 0.000306293,
+      "tangentialT2": -0.00146070
     },
     {
       "makeModel": "djiFC3170",
-      "ccdWidthMMPerPixel": "6.623518/8000.0",
-      "ccdHeightMMPerPixel": "4.854492/6000.0",
-      "widthPixels": 8000,
-      "heightPixels": 6000,
+      "ccdWidthMMPerPixel": "6.623518/4000.0",
+      "ccdHeightMMPerPixel": "4.854492/3000.0",
+      "widthPixels": 4000,
+      "heightPixels": 3000,
       "comment": "DJI Mavic Air 2, possibly DJI Mavic 2 Enterprise Advanced? // UNKNOWN COMPATIBILITY",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0261195,
+      "radialR2": 0.127404,
+      "radialR3": -0.112754,
+      "tangentialT1": -0.000192154,
+      "tangentialT2": -0.000279808
     },
     {
       "makeModel": "djiFC3411",
@@ -359,11 +357,11 @@
       "heightPixels": 3648,
       "comment": "DJI Mavic Air 2S // METADATA NOT COMPATIBLE WITH OPENATHENA",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0721472,
+      "radialR2": 0.0430563,
+      "radialR3": 0.0272348,
+      "tangentialT1": 0.000468622,
+      "tangentialT2": 0.000259118
     },
     {
       "makeModel": "djiFC6510",
@@ -373,11 +371,11 @@
       "heightPixels": 3648,
       "comment": "DJI Zenmuse X4S (Inspire 2)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00337736,
+      "radialR2": -0.0107165,
+      "radialR3": 0.0106237,
+      "tangentialT1": 0.000668314,
+      "tangentialT2": 0.000920046
     },
     {
       "makeModel": "djiFC550",
@@ -387,11 +385,11 @@
       "heightPixels": 3456,
       "comment": "DJI Zenmuse X5 (Inspire 1)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00206796,
+      "radialR2": 0.00557543,
+      "radialR3": -0.00764313,
+      "tangentialT1": -0.00110653,
+      "tangentialT2": 0.00351155
     },
     {
       "makeModel": "djiFC550RAW",
@@ -401,11 +399,11 @@
       "heightPixels": 3456,
       "comment": "DJI Zenmuse X5 (Inspire 1)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00206796,
+      "radialR2": 0.00557543,
+      "radialR3": -0.00764313,
+      "tangentialT1": -0.00110653,
+      "tangentialT2": 0.00351155
     },
     {
       "makeModel": "djiFC550R",
@@ -415,11 +413,11 @@
       "heightPixels": 3456,
       "comment": "DJI Zenmuse X5 (Inspire 1)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00206796,
+      "radialR2": 0.00557543,
+      "radialR3": -0.00764313,
+      "tangentialT1": -0.00110653,
+      "tangentialT2": 0.00351155
     },
     {
       "makeModel": "djiFC6520",
@@ -429,11 +427,11 @@
       "heightPixels": 3956,
       "comment": "DJI Zenmuse X5S (Inspire 2)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.00440812,
+      "radialR2": -0.0433311,
+      "radialR3": 0.0866566,
+      "tangentialT1": -0.0027366,
+      "tangentialT2": 0.00392769
     },
     {
       "makeModel": "djiFC6540",
@@ -443,11 +441,11 @@
       "heightPixels": 4008,
       "comment": "DJI Zenmuse X7 (Inspire 2)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.00785336,
+      "radialR2": -0.0727459,
+      "radialR3": 0.123527,
+      "tangentialT1": 0.00122,
+      "tangentialT2": -0.000084169
     },
     {
       "makeModel": "djiZENMUSEH20",
@@ -485,11 +483,11 @@
       "heightPixels": 3040,
       "comment": "",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.173261,
+      "radialR2": -0.491679,
+      "radialR3": 0.308841,
+      "tangentialT1": 0.000027408,
+      "tangentialT2": 0.000158687
     },
     {
       "makeModel": "djiZH20T",
@@ -499,11 +497,11 @@
       "heightPixels": 3040,
       "comment": "",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.173261,
+      "radialR2": -0.491679,
+      "radialR3": 0.308841,
+      "tangentialT1": 0.000027408,
+      "tangentialT2": 0.000158687
     },
     {
       "makeModel": "djiZENMUSEH20W",
@@ -567,13 +565,13 @@
       "ccdHeightMMPerPixel": "4.867836/6000.0",
       "widthPixels": 8000,
       "heightPixels": 6000,
-      "comment": "DJI Mavic 2 Enterprise Advanced (M2EA) thermal camera",
+      "comment": "DJI Mavic 2 Enterprise Advanced (M2EA)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0072166,
+      "radialR2": -0.00637467,
+      "radialR3": -0.0229787,
+      "tangentialT1": -0.000405218,
+      "tangentialT2": -0.00116963
     },
     {
       "makeModel": "djiM2EA",
@@ -581,13 +579,13 @@
       "ccdHeightMMPerPixel": "4.867836/6000.0",
       "widthPixels": 8000,
       "heightPixels": 6000,
-      "comment": "DJI Mavic 2 Enterprise Advanced (M2EA) thermal camera",
+      "comment": "DJI Mavic 2 Enterprise Advanced (M2EA)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0072166,
+      "radialR2": -0.00637467,
+      "radialR3": -0.0229787,
+      "tangentialT1": -0.000405218,
+      "tangentialT2": -0.00116963
     },
     {
       "makeModel": "ZENMUSEP1",
@@ -597,11 +595,11 @@
       "heightPixels": 5460,
       "comment": "DJI Zenmuse P1 (Matrice 300 series payload) has a full frame, 45 MP camera!",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.155312,
+      "radialR2": 0.0408227,
+      "radialR3": -0.0161404,
+      "tangentialT1": 0.000770338,
+      "tangentialT2": -0.000036238
     },
     {
       "ccdWidthMMPerPixel": "34.824566/8192.0",
@@ -611,11 +609,11 @@
       "heightPixels": 5460,
       "comment": "DJI Zenmuse P1 (Matrice 300 series payload) has a full frame, 45 MP camera!",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.155312,
+      "radialR2": 0.0408227,
+      "radialR3": -0.0161404,
+      "tangentialT1": 0.000770338,
+      "tangentialT2": -0.000036238
     },
     {
       "makeModel": "djiZENMUSEXT2",
@@ -647,17 +645,17 @@
     },
     {
       "makeModel": "djiXT2",
-      "ccdWidthMMPerPixel": "10.88/640.0",
-      "ccdHeightMMPerPixel": "8.704/512.0",
-      "widthPixels": 640,
-      "heightPixels": 512,
-      "comment": "DJI Zenmuse XT and XT2 thermal camera (FLIR Tau 2 640)",
+      "ccdWidthMMPerPixel": "7.433226/4000.0",
+      "ccdHeightMMPerPixel": "5.66274/3000.0",
+      "widthPixels": 4000,
+      "heightPixels": 3000,
+      "comment": "DJI Zenmuse XT and XT2 color camera",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.460726,
+      "radialR2": 0.319825,
+      "radialR3": -0.177772,
+      "tangentialT1": 0.00154232,
+      "tangentialT2": -0.000266525
     },
     {
       "makeModel": "djiXT S",
@@ -709,11 +707,11 @@
       "heightPixels": 2976,
       "comment": "DJI Spark",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.117234,
+      "radialR2": -0.297963,
+      "radialR3": 0.14229,
+      "tangentialT1": 0.000512268,
+      "tangentialT2": -0.000285157
     },
     {
       "makeModel": "skydioR1",
@@ -731,87 +729,87 @@
     },
     {
       "makeModel": "skydio2",
-      "ccdWidthMMPerPixel": "3.7/2376.5625",
-      "ccdHeightMMPerPixel": "3.7/2376.5625",
+      "ccdWidthMMPerPixel": "6.14571/4056.0",
+      "ccdHeightMMPerPixel": "4.504078/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
       "comment": "Skydio 2 and 2+ Sony IMX577 1/2.3” 12.3MP CMOS",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.134437,
+      "radialR2": -0.24607,
+      "radialR3": 0.104529,
+      "tangentialT1": -0.000175531,
+      "tangentialT2": -0.000580392
     },
     {
       "makeModel": "skydio2+",
-      "ccdWidthMMPerPixel": "3.7/2376.5625",
-      "ccdHeightMMPerPixel": "3.7/2376.5625",
+      "ccdWidthMMPerPixel": "6.14571/4056.0",
+      "ccdHeightMMPerPixel": "4.504078/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
       "comment": "Skydio 2 and 2+ Sony IMX577 1/2.3” 12.3MP CMOS",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.134437,
+      "radialR2": -0.24607,
+      "radialR3": 0.104529,
+      "tangentialT1": -0.000175531,
+      "tangentialT2": -0.000580392
     },
     {
       "makeModel": "skydioX2",
-      "ccdWidthMMPerPixel": "3.7/2376.5625",
-      "ccdHeightMMPerPixel": "3.7/2376.5625",
+      "ccdWidthMMPerPixel": "6.141606/4056.0",
+      "ccdHeightMMPerPixel": "4.618488/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
       "comment": "Sony IMX577 1/2.3” 12.3MP CMOS (same as Skydio 2 and 2+)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.00217541,
+      "radialR2": 0.0170274,
+      "radialR3": -0.0194506,
+      "tangentialT1": 0.000454047,
+      "tangentialT2": -0.000116946
     },
     {
       "makeModel": "skydioX2E",
-      "ccdWidthMMPerPixel": "7.5/4848.1875",
-      "ccdHeightMMPerPixel": "7.5/4832.3438",
+      "ccdWidthMMPerPixel": "6.277952/4056.0",
+      "ccdHeightMMPerPixel": "4.45266/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
       "comment": "X2 Enterprise (Color / Thermal)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0775824,
+      "radialR2": 0.197062,
+      "radialR3": -0.0681503,
+      "tangentialT1": 0.00117176,
+      "tangentialT2": 0.000238774
     },
     {
       "makeModel": "skydioX2D",
-      "ccdWidthMMPerPixel": "7.5/4848.1875",
-      "ccdHeightMMPerPixel": "7.5/4832.3438",
+      "ccdWidthMMPerPixel": "6.277952/4056.0",
+      "ccdHeightMMPerPixel": "4.45266/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
       "comment": "X2 Defense (Color / Thermal)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0775824,
+      "radialR2": 0.197062,
+      "radialR3": -0.0681503,
+      "tangentialT1": 0.00117176,
+      "tangentialT2": 0.000238774
     },
     {
       "makeModel": "Autel RoboticsXT701",
-      "ccdWidthMMPerPixel": "6.433608/7680",
+      "ccdWidthMMPerPixel": "6.433608/7680.0",
       "ccdHeightMMPerPixel": "5.014122/6000.0",
-      "widthPixels": 8000,
+      "widthPixels": 7680,
       "heightPixels": 6000,
       "comment": "Autel EVO II camera",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.151681,
+      "radialR2": -0.40451,
+      "radialR3": 0.331358,
+      "tangentialT1": -0.000133808,
+      "tangentialT2": -0.000101442
     },
     {
       "makeModel": "Autel RoboticsXT705",
@@ -821,11 +819,11 @@
       "heightPixels": 3648,
       "comment": "Autel EVO II Pro camera, Sony IMX383 CMOS sensor, https://commonlands.com/blogs/technical/cmos-sensor-size, https://www.sony-semicon.com/files/62/pdf/p-13_IMX383-AAQK_Flyer.pdf",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": 0.0665994,
+      "radialR2": -0.211744,
+      "radialR3": 0.246277,
+      "tangentialT1": 0.00331114,
+      "tangentialT2": 0.000732718
     },
     {
       "makeModel": "Autel RoboticsXT709",
@@ -843,45 +841,45 @@
     },
     {
       "makeModel": "parrotANAFI",
-      "ccdWidthMMPerPixel": "5.963396/5344.0",
-      "ccdHeightMMPerPixel": "4.428166/4016.0",
-      "widthPixels": 8000,
-      "heightPixels": 6000,
+      "ccdWidthMMPerPixel": "5.963396/5344",
+      "ccdHeightMMPerPixel": "4.428166/4016",
+      "widthPixels": 5344,
+      "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.249096,
+      "radialR2": 0.0199733,
+      "radialR3": 0.0116606,
+      "tangentialT1": 0.0001663350,
+      "tangentialT2": 0.000881907
     },
     {
       "makeModel": "parrotANAFIUSA",
-      "ccdWidthMMPerPixel": "5.963396/5344.0",
-      "ccdHeightMMPerPixel": "4.428166/4016.0",
-      "widthPixels": 8000,
-      "heightPixels": 6000,
+      "ccdWidthMMPerPixel": "5.963396/5344",
+      "ccdHeightMMPerPixel": "4.428166/4016",
+      "widthPixels": 5344,
+      "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.249096,
+      "radialR2": 0.0199733,
+      "radialR3": 0.0116606,
+      "tangentialT1": 0.0001663350,
+      "tangentialT2": 0.000881907
     },
     {
       "makeModel": "parrotANAFIUA",
       "ccdWidthMMPerPixel": "5.963396/5344.0",
       "ccdHeightMMPerPixel": "4.428166/4016.0",
-      "widthPixels": 8000,
-      "heightPixels": 6000,
+      "widthPixels": 5344,
+      "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.249096,
+      "radialR2": 0.0199733,
+      "radialR3": 0.0116606,
+      "tangentialT1": 0.0001663350,
+      "tangentialT2": 0.000881907
     },
     {
       "makeModel": "parrotANAFIAI",
@@ -904,12 +902,11 @@
       "widthPixels": 4096,
       "heightPixels": 3072,
       "comment": "1/2.3in 14 MP unnamed sensor",
-      "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "lensType": "fisheye",
+      "c": 1101.96,
+      "d": 0.0,
+      "e": 0.0,
+      "f": 1101.96
     }
   ]
 }
