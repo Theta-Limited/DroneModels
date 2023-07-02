@@ -3,6 +3,7 @@
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.32692/4000.0",
       "ccdHeightMMPerPixel": "4.7452/3000.0",
       "widthPixels": 4000,
@@ -17,6 +18,7 @@
     },
     {
       "makeModel": "djiFC230",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.17/4056.0",
       "ccdHeightMMPerPixel": "4.55/3040.0",
       "widthPixels": 4048,
@@ -31,6 +33,7 @@
     },
     {
       "makeModel": "djiFC330",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3174/4024.0",
       "ccdHeightMMPerPixel": "4.73812/3036.0",
       "widthPixels": 4000,
@@ -45,6 +48,7 @@
     },
     {
       "makeModel": "djiFC6310",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "12.83332/5472.0",
       "ccdHeightMMPerPixel": "8.55554/3648.0",
       "widthPixels": 5472,
@@ -59,6 +63,7 @@
     },
     {
       "makeModel": "djiFC6310S",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "12.83332/5472.0",
       "ccdHeightMMPerPixel": "8.55554/3648.0",
       "widthPixels": 5472,
@@ -73,6 +78,7 @@
     },
     {
       "makeModel": "djiFC6360",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "4.902986/1600.0",
       "ccdHeightMMPerPixel": "4.014978/1300.0",
       "widthPixels": 1600,
@@ -87,6 +93,7 @@
     },
     {
       "makeModel": "djiFC300C",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3175/4000.0",
       "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
@@ -101,6 +108,7 @@
     },
     {
       "makeModel": "djiFC300S",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3175/4000.0",
       "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
@@ -115,6 +123,7 @@
     },
     {
       "makeModel": "djiFC300X",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3175/4000.0",
       "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
@@ -129,6 +138,7 @@
     },
     {
       "makeModel": "djiFC300XW",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3175/4000.0",
       "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
@@ -143,6 +153,7 @@
     },
     {
       "makeModel": "djiFC200",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.17/4384.0",
       "ccdHeightMMPerPixel": "4.6275/3288.0",
       "widthPixels": 4384,
@@ -156,6 +167,7 @@
     },
     {
       "makeModel": "djiPHANTOM VISION FC200",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.17/4384.0",
       "ccdHeightMMPerPixel": "4.6275/3288.0",
       "widthPixels": 4384,
@@ -169,6 +181,7 @@
     },
     {
       "makeModel": "djiFC7203",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.577876/4000.0",
       "ccdHeightMMPerPixel": "4.91094/3000.0",
       "widthPixels": 4000,
@@ -183,6 +196,7 @@
     },
     {
       "makeModel": "djiFC7303",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.17/4000.0",
       "ccdHeightMMPerPixel": "4.55/3000.0",
       "widthPixels": 4000,
@@ -197,6 +211,7 @@
     },
     {
       "makeModel": "djiFC3582",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "9.7/8064.0",
       "ccdHeightMMPerPixel": "7.3/6048.0",
       "widthPixels": 8064,
@@ -211,6 +226,7 @@
     },
     {
       "makeModel": "djiFC2200",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3175/4000.0",
       "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
@@ -225,6 +241,7 @@
     },
     {
       "makeModel": "djiFC2204",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.3175/4000.0",
       "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
@@ -239,6 +256,7 @@
     },
     {
       "makeModel": "djiL1D-20C",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "12.825/5472.0",
       "ccdHeightMMPerPixel": "8.55/3648.0",
       "widthPixels": 5472,
@@ -253,6 +271,7 @@
     },
     {
       "makeModel": "djiL2D-20C",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "17.902472/5280.0",
       "ccdHeightMMPerPixel": "13.357522/3956.0",
       "widthPixels": 5280,
@@ -267,6 +286,7 @@
     },
     {
       "makeModel": "djiFC4170",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.4/4000.0",
       "ccdHeightMMPerPixel": "4.8/3000.0",
       "widthPixels": 4000,
@@ -281,6 +301,7 @@
     },
     {
       "makeModel": "djiM3E",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "17.456274/5280.0",
       "ccdHeightMMPerPixel": "12.988404/3956.0",
       "widthPixels": 5280,
@@ -295,6 +316,7 @@
     },
     {
       "makeModel": "djiM3T",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.430908/8000.0",
       "ccdHeightMMPerPixel": "4.838406/6000.0",
       "widthPixels": 8000,
@@ -309,6 +331,7 @@
     },
     {
       "makeModel": "djiFC2103",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.097268/4056.0",
       "ccdHeightMMPerPixel": "4.337884/3040.0",
       "widthPixels": 4048,
@@ -323,6 +346,7 @@
     },
     {
       "makeModel": "djiFC2403",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.49952/4056.0",
       "ccdHeightMMPerPixel": "4.944222/3040.0",
       "widthPixels": 4056,
@@ -336,7 +360,24 @@
       "tangentialT2": -0.00146070
     },
     {
+      "makeModel": "djiFC2403",
+      "isThermal": true,
+      "focalLength": 20.0,
+      "ccdWidthMMPerPixel": "1.92/640.0",
+      "ccdHeightMMPerPixel": "1.44/480.0",
+      "widthPixels": 640,
+      "heightPixels": 480,
+      "comment": "DJI Mavic 2 Enterprise Dual (thermal camera). Model name overloaded, true resolution only 160x120 https://mavicpilots.com/threads/mavic-2-enterprise-thermal-camera-parameters.62562/#post-714679",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
       "makeModel": "djiFC3170",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.623518/4000.0",
       "ccdHeightMMPerPixel": "4.854492/3000.0",
       "widthPixels": 4000,
@@ -351,6 +392,7 @@
     },
     {
       "makeModel": "djiFC3411",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "13.192066/5472.0",
       "ccdHeightMMPerPixel": "9.002534/3648.0",
       "widthPixels": 5472,
@@ -365,6 +407,7 @@
     },
     {
       "makeModel": "djiFC6510",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "12.80942/5472.0",
       "ccdHeightMMPerPixel": "8.58222/3648.0",
       "widthPixels": 5472,
@@ -379,6 +422,7 @@
     },
     {
       "makeModel": "djiFC550",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "17.5/4608.0",
       "ccdHeightMMPerPixel": "13.125/3456.0",
       "widthPixels": 4608,
@@ -393,6 +437,7 @@
     },
     {
       "makeModel": "djiFC550RAW",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "17.5/4608.0",
       "ccdHeightMMPerPixel": "13.125/3456.0",
       "widthPixels": 4608,
@@ -407,6 +452,7 @@
     },
     {
       "makeModel": "djiFC550R",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "17.5/4608.0",
       "ccdHeightMMPerPixel": "13.125/3456.0",
       "widthPixels": 4608,
@@ -421,6 +467,7 @@
     },
     {
       "makeModel": "djiFC6520",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "17.8855/5280.0",
       "ccdHeightMMPerPixel": "12.66604/3956.0",
       "widthPixels": 5280,
@@ -435,6 +482,7 @@
     },
     {
       "makeModel": "djiFC6540",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "23.321566/6016.0",
       "ccdHeightMMPerPixel": "15.771348/4008.0",
       "widthPixels": 6016,
@@ -449,6 +497,7 @@
     },
     {
       "makeModel": "djiZENMUSEH20",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "7.53/5184.0",
       "ccdHeightMMPerPixel": "5.64/3888.0",
       "widthPixels": 5184,
@@ -463,6 +512,7 @@
     },
     {
       "makeModel": "djiZH20",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "7.53/5184.0",
       "ccdHeightMMPerPixel": "5.64/3888.0",
       "widthPixels": 5184,
@@ -477,6 +527,7 @@
     },
     {
       "makeModel": "djiZENMUSEH20T",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.576918/4056.0",
       "ccdHeightMMPerPixel": "4.96953/3040.0",
       "widthPixels": 4056,
@@ -488,9 +539,25 @@
       "radialR3": 0.308841,
       "tangentialT1": 0.000027408,
       "tangentialT2": 0.000158687
+    },
+    {
+      "makeModel": "djiZENMUSEH20T",
+      "isThermal": true,
+      "ccdWidthMMPerPixel": "7.68d/640.0d",
+      "ccdHeightMMPerPixel": "6.144d/512.0d",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "thermal camera, model name overloaded",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
     },
     {
       "makeModel": "djiZH20T",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.576918/4056.0",
       "ccdHeightMMPerPixel": "4.96953/3040.0",
       "widthPixels": 4056,
@@ -504,7 +571,23 @@
       "tangentialT2": 0.000158687
     },
     {
+      "makeModel": "ZH20T",
+      "isThermal": true,
+      "ccdWidthMMPerPixel": "7.68d/640.0d",
+      "ccdHeightMMPerPixel": "6.144d/512.0d",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "thermal camera, model name overloaded",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
       "makeModel": "djiZENMUSEH20W",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.16/4056.0",
       "ccdHeightMMPerPixel": "4.62/3040.0",
       "widthPixels": 4056,
@@ -519,6 +602,7 @@
     },
     {
       "makeModel": "djiZH20W",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.16/4056.0",
       "ccdHeightMMPerPixel": "4.62/3040.0",
       "widthPixels": 4056,
@@ -533,6 +617,7 @@
     },
     {
       "makeModel": "djiZENMUSEH20N",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "7.68/640.0",
       "ccdHeightMMPerPixel": "6.144/512.0",
       "widthPixels": 640,
@@ -547,6 +632,7 @@
     },
     {
       "makeModel": "djiZH20N",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "7.68/640.0",
       "ccdHeightMMPerPixel": "6.144/512.0",
       "widthPixels": 640,
@@ -561,6 +647,38 @@
     },
     {
       "makeModel": "djiMAVIC2-ENTERPRISE-ADVANCED",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "6.407596/8000.0",
+      "ccdHeightMMPerPixel": "4.867836/6000.0",
+      "widthPixels": 8000,
+      "heightPixels": 6000,
+      "comment": "DJI Mavic 2 Enterprise Advanced (M2EA)",
+      "lensType": "perspective",
+      "radialR1": -0.0072166,
+      "radialR2": -0.00637467,
+      "radialR3": -0.0229787,
+      "tangentialT1": -0.000405218,
+      "tangentialT2": -0.00116963
+    },
+    {
+      "makeModel": "djiMAVIC2-ENTERPRISE-ADVANCED",
+      "isThermal": true,
+      "focalLength": 9.12,
+      "ccdWidthMMPerPixel": "7.68/640.0",
+      "ccdHeightMMPerPixel": "6.144d/512.0",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "DJI Mavic 2 Enterprise Advanced Thermal camera, name overloaded",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
+      "makeModel": "djiM2EA",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.407596/8000.0",
       "ccdHeightMMPerPixel": "4.867836/6000.0",
       "widthPixels": 8000,
@@ -575,20 +693,23 @@
     },
     {
       "makeModel": "djiM2EA",
-      "ccdWidthMMPerPixel": "6.407596/8000.0",
-      "ccdHeightMMPerPixel": "4.867836/6000.0",
-      "widthPixels": 8000,
-      "heightPixels": 6000,
-      "comment": "DJI Mavic 2 Enterprise Advanced (M2EA)",
+      "isThermal": true,
+      "focalLength": 9.12,
+      "ccdWidthMMPerPixel": "7.68/640.0",
+      "ccdHeightMMPerPixel": "6.144d/512.0",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "DJI Mavic 2 Enterprise Advanced Thermal camera, name overloaded",
       "lensType": "perspective",
-      "radialR1": -0.0072166,
-      "radialR2": -0.00637467,
-      "radialR3": -0.0229787,
-      "tangentialT1": -0.000405218,
-      "tangentialT2": -0.00116963
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
     },
     {
       "makeModel": "ZENMUSEP1",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "34.824566/8192.0",
       "ccdHeightMMPerPixel": "23.474776/5460.0",
       "widthPixels": 8192,
@@ -602,9 +723,10 @@
       "tangentialT2": -0.000036238
     },
     {
+      "makeModel": "djiZP1",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "34.824566/8192.0",
       "ccdHeightMMPerPixel": "23.474776/5460.0",
-      "makeModel": "djiZP1",
       "widthPixels": 8192,
       "heightPixels": 5460,
       "comment": "DJI Zenmuse P1 (Matrice 300 series payload) has a full frame, 45 MP camera!",
@@ -617,20 +739,22 @@
     },
     {
       "makeModel": "djiZENMUSEXT2",
-      "ccdWidthMMPerPixel": "7.5036/4056.0",
-      "ccdHeightMMPerPixel": "5.624/3040.0",
-      "widthPixels": 4056,
-      "heightPixels": 3040,
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "7.433226/4000.0",
+      "ccdHeightMMPerPixel": "5.66274/3000.0",
+      "widthPixels": 4000,
+      "heightPixels": 3000,
       "comment": "DJI Zenmuse XT and XT2 color camera (discontinued Matrice 300 series payload)",
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.460726,
+      "radialR2": 0.319825,
+      "radialR3": -0.177772,
+      "tangentialT1": 0.00154232,
+      "tangentialT2": -0.000266525
     },
     {
-      "makeModel": "djiFLIR",
+      "makeModel": "djiZENMUSEXT2",
+      "isThermal": true,
       "ccdWidthMMPerPixel": "10.88/640.0",
       "ccdHeightMMPerPixel": "8.704/512.0",
       "widthPixels": 640,
@@ -645,6 +769,7 @@
     },
     {
       "makeModel": "djiXT2",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "7.433226/4000.0",
       "ccdHeightMMPerPixel": "5.66274/3000.0",
       "widthPixels": 4000,
@@ -658,7 +783,40 @@
       "tangentialT2": -0.000266525
     },
     {
+      "makeModel": "djiXT2",
+      "isThermal": true,
+      "ccdWidthMMPerPixel": "10.88/640.0",
+      "ccdHeightMMPerPixel": "8.704/512.0",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "DJI Zenmuse XT and XT2 thermal camera (FLIR Tau 2 640)",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "djiFLIR",
+      "isThermal": true,
+      "focalLength": 9.0,
+      "ccdWidthMMPerPixel": "10.88/640.0",
+      "ccdHeightMMPerPixel": "8.704/512.0",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "DJI Zenmuse XT and XT2 thermal camera (FLIR Tau 2 640)",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
       "makeModel": "djiXT S",
+      "isThermal": true,
+      "focalLength": 6.8,
       "ccdWidthMMPerPixel": "5.712/336.0",
       "ccdHeightMMPerPixel": "4.352/256.0",
       "widthPixels": 336,
@@ -673,6 +831,7 @@
     },
     {
       "makeModel": "djiZENMUSEZ30",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "4.71/1920.0",
       "ccdHeightMMPerPixel": "3.54/1440.0",
       "widthPixels": 1920,
@@ -687,6 +846,7 @@
     },
     {
       "makeModel": "djiZ30",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "4.71/1920.0",
       "ccdHeightMMPerPixel": "3.54/1440.0",
       "widthPixels": 1920,
@@ -701,6 +861,7 @@
     },
     {
       "makeModel": "djiFC1102",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.260924/3968.0",
       "ccdHeightMMPerPixel": "4.670134/2976.0",
       "widthPixels": 3968,
@@ -715,6 +876,7 @@
     },
     {
       "makeModel": "skydioR1",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "3.7/2376.5625",
       "ccdHeightMMPerPixel": "3.7/2376.5625",
       "widthPixels": 4056,
@@ -729,6 +891,7 @@
     },
     {
       "makeModel": "skydio2",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.14571/4056.0",
       "ccdHeightMMPerPixel": "4.504078/3040.0",
       "widthPixels": 4056,
@@ -743,6 +906,7 @@
     },
     {
       "makeModel": "skydio2+",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.14571/4056.0",
       "ccdHeightMMPerPixel": "4.504078/3040.0",
       "widthPixels": 4056,
@@ -757,6 +921,7 @@
     },
     {
       "makeModel": "skydioX2",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.141606/4056.0",
       "ccdHeightMMPerPixel": "4.618488/3040.0",
       "widthPixels": 4056,
@@ -771,11 +936,12 @@
     },
     {
       "makeModel": "skydioX2E",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.277952/4056.0",
       "ccdHeightMMPerPixel": "4.45266/3040.0",
       "widthPixels": 4056,
       "heightPixels": 3040,
-      "comment": "X2 Enterprise (Color / Thermal)",
+      "comment": "X2 Enterprise (Color)",
       "lensType": "perspective",
       "radialR1": -0.0775824,
       "radialR2": 0.197062,
@@ -784,7 +950,24 @@
       "tangentialT2": 0.000238774
     },
     {
+      "makeModel": "skydioX2E",
+      "isThermal": true,
+      "focalLength": 9.1,
+      "ccdWidthMMPerPixel": "3.840/320.0",
+      "ccdHeightMMPerPixel": "3.072/256.0",
+      "widthPixels": 320,
+      "heightPixels": 256,
+      "comment": "X2 Enterprise (Thermal) FLIR Boson 320x256 9.1mm",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
       "makeModel": "skydioX2D",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.277952/4056.0",
       "ccdHeightMMPerPixel": "4.45266/3040.0",
       "widthPixels": 4056,
@@ -798,7 +981,24 @@
       "tangentialT2": 0.000238774
     },
     {
+      "makeModel": "skydioX2D",
+      "isThermal": true,
+      "focalLength": 9.1,
+      "ccdWidthMMPerPixel": "3.840/320.0",
+      "ccdHeightMMPerPixel": "3.072/256.0",
+      "widthPixels": 320,
+      "heightPixels": 256,
+      "comment": "X2 Defense (Thermal) FLIR Boson 320x256 9.1mm",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
       "makeModel": "Autel RoboticsXT701",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.433608/7680.0",
       "ccdHeightMMPerPixel": "5.014122/6000.0",
       "widthPixels": 7680,
@@ -813,6 +1013,7 @@
     },
     {
       "makeModel": "Autel RoboticsXT705",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "12.75016/5472.0",
       "ccdHeightMMPerPixel": "8.690014/3648.0",
       "widthPixels": 5472,
@@ -827,11 +1028,27 @@
     },
     {
       "makeModel": "Autel RoboticsXT709",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.40/8000.0",
       "ccdHeightMMPerPixel": "4.80/6000.0",
       "widthPixels": 8000,
       "heightPixels": 6000,
-      "comment": "Autel EVO II v2 and EVO II DUAL camera unnamed 1/2in CMOS 4:3 sensor",
+      "comment": "Autel EVO II v2 and EVO II DUAL color camera unnamed 1/2in CMOS 4:3 sensor",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "Autel RoboticsXT709",
+      "isThermal": true,
+      "ccdWidthMMPerPixel": "7.68/640",
+      "ccdHeightMMPerPixel": "6.144/512",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "Autel EVO II v2 and EVO II DUAL thermal camera Uncooled VOx Microbolometer 13mm focal length",
       "lensType": "perspective",
       "radialR1": 0,
       "radialR2": 0,
@@ -841,6 +1058,7 @@
     },
     {
       "makeModel": "parrotANAFI",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "5.963396/5344.0",
       "ccdHeightMMPerPixel": "4.428166/4016.0",
       "widthPixels": 5344,
@@ -855,6 +1073,7 @@
     },
     {
       "makeModel": "parrotANAFIUSA",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "5.963396/5344.0",
       "ccdHeightMMPerPixel": "4.428166/4016.0",
       "widthPixels": 5344,
@@ -868,7 +1087,24 @@
       "tangentialT2": 0.000881907
     },
     {
+      "makeModel": "parrotANAFIUSA",
+      "isThermal": true,
+      "focalLength": 4.3,
+      "ccdWidthMMPerPixel": "3.840/320",
+      "ccdHeightMMPerPixel": "3.072/256",
+      "widthPixels": 320,
+      "heightPixels": 256,
+      "comment": "FLIR Boson 320 4.3mm focal length",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
       "makeModel": "parrotANAFIUA",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "5.963396/5344.0",
       "ccdHeightMMPerPixel": "4.428166/4016.0",
       "widthPixels": 5344,
@@ -883,6 +1119,7 @@
     },
     {
       "makeModel": "parrotANAFIAI",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "6.636112/8000.0",
       "ccdHeightMMPerPixel": "4.941216/6000.0",
       "widthPixels": 8000,
@@ -897,6 +1134,7 @@
     },
     {
       "makeModel": "parrotBEBOP 2",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "5.7344/4096.0",
       "ccdHeightMMPerPixel": "4.648/3072.0",
       "widthPixels": 4096,
