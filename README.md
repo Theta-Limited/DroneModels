@@ -1,9 +1,9 @@
 # DroneModels
 
 This repo is used to track the file droneModels.json which is bundled
-across the OpenAthena application platforms.  It contains drone
-CMOS/CCD specifications in order to make arbitrary point selection
-more accurate.  Use the linux command-line utility jq to syntax check
+across the OpenAthena application platforms.  It contains parameters
+representing the physical properties of drone camera in order to make arbitrary point selection
+more accurate.  Use the command-line utility `jq` to syntax check
 the json file before you commit it.
 
 ```
