@@ -37,7 +37,7 @@ Here is an example of a JSONObject for a particluar make/model of drone:
 ```
 
 In this object:
-* `makeModel` represents the exif make and model String merged together, a unique String representing a specific drone model. The make String is made all lowercase, while the model string is made all uppercase.
+* `makeModel` represents the EXIF make and model String merged together, a unique String representing a specific drone model. The EXIF make String is made all lowercase, while the EXIF model String is made all uppercase.
 * `focalLength` is an optional parameter which represents the distance between the focal point (the part of the lens that all light passes through) and the CCD/CMOS sensor which digitizes incoming light. This is only provided in rare cases when such data is unavailable in a camera model's image EXIF data.
 * `isThermal` represents whether this particular JSONObject represents the thermal or color camera of a given drone. This is used to solve name collisions in the `makeModel` String that occur when both the thermal and color cameras of a drone report the same model name despite having different parameters.
 * `ccdWidthMMPerPixel` represents the width of each pixel (in millimeters) of the drone camera's CCD/CMOS sensor which digitizes incoming light
@@ -54,7 +54,9 @@ OpenAthena's basic calculation for ray angle from a selected image point is base
 If calibration data (based on real-world calibration with a particular camera model) is present, OpenAthena may use certain parameters to apply a mathematical correction for the distortion a particular camera lens causes. This allows the calculated ray angle for an arbitrary image point to be more accurate.
 
 These two links describe the applicable mathematical formulas:
+
 https://support.pix4d.com/hc/en-us/articles/202559089-How-are-the-Internal-and-External-Camera-Parameters-defined
+
 https://www.mathworks.com/help/vision/ug/camera-calibration.html#:~:text=The%20intrinsic%20parameters%20represent%20the,plane%20using%20the%20intrinsics%20parameters.
 
 The type correction applied depends on whether the `lensType` is either `perspective` or `fisheye`.
@@ -107,9 +109,11 @@ drone models and through user submissions.
 To begin calibrating your particular drone model, you will first need to determine the `ccdWidthMMPerPixel` and `ccdHeightMMPerPixel`. This can often be determined from technical specification documents of a camera if the exact model of its CCD/CMOS sensor is known (commonly products made by Sony or FLIR). If the particular sensor model is not known, please contact developer support for your drone's manufacturer.
 
 From there, follow these instructions using the unaffiliated PIX4D software to calculate calibrations for your particular drone:
+
 https://support.pix4d.com/hc/en-us/articles/206065716-How-to-calibrate-a-Perspective-Lens-Camera
 
 After calibration, all the necessary data will be available in the PIX4D `icmdb.xml` file, the location on your filesystem described here:
+
 https://support.pix4d.com/hc/en-us/articles/202559349-Which-Cameras-exist-in-PIX4Dmapper-Database-and-which-Parameters-are-used
 
 Finally, convert the data from the PIX4D format to the OpenAthena JSONObject convention shown previously. Rename `radialK1` to `radialR1`, `radialK2` to `radialR2`, and `radialK3` to `radialR3`.
