@@ -61,7 +61,7 @@ https://www.mathworks.com/help/vision/ug/camera-calibration.html#:~:text=The%20i
 
 The type correction applied depends on whether the `lensType` is either `perspective` or `fisheye`.
 
-`perspective` cameras have the parameters `radialR1`, `radialR2`, `radialR3`, `tangentialT1`, and tangentialT2`, and such an JSONObject may look like this:
+`perspective` cameras have the parameters `radialR1`, `radialR2`, `radialR3`, `tangentialT1`, and `tangentialT2`, and such an JSONObject may look like this:
 ```JSON
     {
       "makeModel": "djiL2D-20C",
