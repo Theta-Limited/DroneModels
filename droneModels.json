@@ -997,7 +997,7 @@
       "tangentialT2": 0.0
     },
     {
-      "makeModel": "Autel RoboticsXT701",
+      "makeModel": "autel roboticsXT701",
       "isThermal": false,
       "ccdWidthMMPerPixel": "6.433608/7680.0",
       "ccdHeightMMPerPixel": "5.014122/6000.0",
@@ -1012,7 +1012,7 @@
       "tangentialT2": -0.000101442
     },
     {
-      "makeModel": "Autel RoboticsXT705",
+      "makeModel": "autel roboticsXT705",
       "isThermal": false,
       "ccdWidthMMPerPixel": "12.75016/5472.0",
       "ccdHeightMMPerPixel": "8.690014/3648.0",
@@ -1027,7 +1027,7 @@
       "tangentialT2": 0.000732718
     },
     {
-      "makeModel": "Autel RoboticsXT709",
+      "makeModel": "autel roboticsXT709",
       "isThermal": false,
       "ccdWidthMMPerPixel": "6.40/8000.0",
       "ccdHeightMMPerPixel": "4.80/6000.0",
@@ -1042,7 +1042,7 @@
       "tangentialT2": 0
     },
     {
-      "makeModel": "Autel RoboticsXT709",
+      "makeModel": "autel roboticsXT709",
       "isThermal": true,
       "ccdWidthMMPerPixel": "7.68/640",
       "ccdHeightMMPerPixel": "6.144/512",
