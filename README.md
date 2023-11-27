@@ -46,6 +46,11 @@ In this object:
 * `heightPixels` represents the number of pixels in the height of a camera's uncropped, full resolution image
 * `comment` represents a comment from the author of the object which gives insight into the camera's corresponding drone model and properties
 * `lensType` is one of two values: `perspective` or `fisheye`, used for applying the correct correction equations for distortion of incoming light by the camera lens. Read below for further details
+* `radialR1` represents the first radial distortion coefficient for the camera's lens
+* `radialR2` represents the second radial distortion coefficient for the camera's lens
+* `radialR3` represents the third radial distortion coefficient for the camera's lens
+* `tangentialT1` represents the first tangential distortion coefficient for the camera's lens
+* `tangentialT2` represents the second tangential distortion coefficient for the camera's lens
 
 ### Distortion parameters
 
