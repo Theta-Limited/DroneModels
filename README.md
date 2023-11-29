@@ -86,21 +86,26 @@ The type correction applied depends on whether the `lensType` is either `perspec
 
 ```
 
-`fisheye` cameras have the parameters `c`, `d`, `e`, and `f`, and such an JSONObject may look like this:
+`fisheye` cameras have the parameters `c`, `d`, `e`, `f`, and `poly0` to `poly4`. Such an JSONObject may look like this:
 ```JSON
     {
       "makeModel": "parrotBEBOP 2",
       "isThermal": false,
       "ccdWidthMMPerPixel": "5.7344/4096.0",
-      "ccdHeightMMPerPixel": "4.648/3072.0",
+      "ccdHeightMMPerPixel": "4.648/3320.0",
       "widthPixels": 4096,
-      "heightPixels": 3072,
+      "heightPixels": 3320,
       "comment": "1/2.3in 14 MP unnamed sensor",
       "lensType": "fisheye",
-      "c": 1101.96,
+      "poly0": 0.0,
+      "poly1": 1.0,
+      "poly2": -0.0561106,
+      "poly3": 0.0350564,
+      "poly4": -0.0953153,
+      "c": 2203.93,
       "d": 0.0,
       "e": 0.0,
-      "f": 1101.96
+      "f": 2203.93
     }
 ```
 
@@ -111,7 +116,18 @@ drone models and through user submissions.
 
 ### Calibrate parameters for a new drone model
 
-To begin calibrating your particular drone model, you will first need to determine the `ccdWidthMMPerPixel` and `ccdHeightMMPerPixel`. This can often be determined from technical specification documents of a camera if the exact model of its CCD/CMOS sensor is known (commonly products made by Sony or FLIR). If the particular sensor model is not known, please contact developer support for your drone's manufacturer.
+#### Using Theta's [camera-calibration.py](https://github.com/Theta-Limited/camera-calibration)
+
+**For `perspective` lens types only, not `fisheye`**
+
+Theta Informatics maintains the camera-calibration.py python script which allows camera calibration to be performed automatically given a few dozen pictures of a specific pattern (White and Black checkerboard) printout:
+
+[https://github.com/Theta-Limited/camera-calibration](https://github.com/Theta-Limited/camera-calibration)
+
+Please see instructions in the README.md for that project for information on how to use these values to create a new entry in this droneModels.json
+
+
+#### (alternative) Using PIX4D
 
 From there, follow these instructions using the unaffiliated PIX4D software to calculate calibrations for your particular drone:
 
@@ -129,7 +145,9 @@ We welcome third party contributions, especially from drone manufactuers who wou
 
 Contributions to this project must use the [fork and pull method](https://reflectoring.io/github-fork-and-pull/).
 
-To contribute, make a fork of this repo and clone your fork. Insert your new JSONObject to the `droneCCDParams` array in `droneModels.json`. Install [`jq`](https://jqlang.github.io/jq/) if it is not already on your system, and run the command described previously to check for syntax errors. Add and commit your changes, and push it to your fork. Finally, use the GitHub web interface to create a pull request to request your fork's changes to be merged into this repository. In your pull request message, please describe your drone model and the process you used to perform calibration.
+To contribute, make a fork of this repo and clone your fork. Insert your new JSONObject to the `droneCCDParams` array in `droneModels.json`. Install [`jq`](https://jqlang.github.io/jq/) if it is not already on your system, and run the command described previously to check for syntax errors.
+
+When ready to submit, add and commit your changes, and push it to your fork. Finally, use the GitHub web interface to create a pull request to request your fork's changes to be merged into this repository. In your pull request message, please describe your drone model and the process you used to perform calibration.
 
 ## Additional Information
 
@@ -138,6 +156,6 @@ geodesy platform which enables a competitive advantage for its users.
 
 OpenAthena™ allows common drones to spot precise geodetic locations.
 
-An Android port of the [OpenAthena project](http://OpenAthena.com)
+An Android port of the [OpenAthena project](https://github.com/Theta-Limited/OpenAthenaAndroid)
 
-An iOS port of the [OpenAthena project](http://OpenAthena.com)
+An iOS port of the [OpenAthena project](https://github.com/Theta-Limited/OpenAthenaIOS)
