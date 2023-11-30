@@ -1,0 +1,42 @@
+#!/bin/sh
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+#
+# To enable this hook, rename this file to "pre-commit".
+
+# add this pre-commit file into .git/hooks of your downloaded repo
+# so that git automatically updates the lastUpdate field in the droneModels.json
+# prior to each commit
+
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+	against=HEAD
+else
+	# Initial commit: diff against an empty tree object
+	against=$(git hash-object -t tree /dev/null)
+fi
+
+# Redirect output to stderr.
+exec 1>&2
+
+# Get the absolute path to the root of the Git repository
+REPO_ROOT=$(git rev-parse --show-toplevel)
+
+# Define the path to the file relative to the root of the repository
+FILE="$REPO_ROOT/droneModels.json"
+
+# Define the current date format
+CURRENT_DATE=$(date)
+
+# Use sed to replace the placeholder with the current date
+# This will search for the string 'DATE_FIELD' and replace it with the current date
+/bin/sed -i "s/\"lastUpdate\": \".*\"/\"lastUpdate\": \"$CURRENT_DATE\"/" $FILE
+
+# Add the file to the commit
+git add $FILE
+
+# End the script
+exit 0
