@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # An example hook script to verify what is about to be committed.
 # Called by "git commit" with no arguments.  The hook should
@@ -33,7 +33,7 @@ CURRENT_DATE=$(date)
 
 # Use sed to replace the placeholder with the current date
 # This will search for the string 'DATE_FIELD' and replace it with the current date
-/bin/sed -i "s/\"lastUpdate\": \".*\"/\"lastUpdate\": \"$CURRENT_DATE\"/" $FILE
+/usr/bin/sed -i "s/\"lastUpdate\": \".*\"/\"lastUpdate\": \"$CURRENT_DATE\"/" $FILE
 
 # Add the file to the commit
 git add $FILE
