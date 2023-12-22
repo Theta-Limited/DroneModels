@@ -31,9 +31,18 @@ FILE="$REPO_ROOT/droneModels.json"
 # Define the current date format
 CURRENT_DATE=$(date)
 
+# Determine OS type
+OS_TYPE=$(uname)
+
 # Use sed to replace the placeholder with the current date
-# This will search for the string 'DATE_FIELD' and replace it with the current date
-/usr/bin/sed -i "s/\"lastUpdate\": \".*\"/\"lastUpdate\": \"$CURRENT_DATE\"/" $FILE
+# Adjust the sed command based on the operating system
+if [[ "$OS_TYPE" == "Darwin" ]]; then
+    # macOS (BSD sed)
+    /usr/bin/sed -i '' "s|\"lastUpdate\": \".*\"|\"lastUpdate\": \"$CURRENT_DATE\"|" "$FILE"
+else
+    # Linux (GNU sed)
+    /usr/bin/sed -i "s|\"lastUpdate\": \".*\"|\"lastUpdate\": \"$CURRENT_DATE\"|" "$FILE"
+fi
 
 # Add the file to the commit
 git add $FILE
