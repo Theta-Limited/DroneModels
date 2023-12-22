@@ -152,7 +152,7 @@ Please see instructions in the README.md for that project for information on how
 
 #### (alternative) Using PIX4D
 
-From there, follow these instructions using the unaffiliated PIX4D software to calculate calibrations for your particular drone:
+Follow these instructions using the unaffiliated PIX4D software to calculate calibrations for your particular drone:
 
 https://support.pix4d.com/hc/en-us/articles/206065716-How-to-calibrate-a-Perspective-Lens-Camera
 
