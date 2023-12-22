@@ -114,6 +114,29 @@ The type correction applied depends on whether the `lensType` is either `perspec
 Updates to this file will occur periodically as we test and validate
 drone models and through user submissions.
 
+### **lastUpdate** field
+
+The field `lastUpdate` at the top of droneModels.json should be updated with the date + time of your last modification to the file. The format is the same as that output by the command `date` on any Linux/Unix terminal:
+
+```JSON
+{
+  "lastUpdate": "Fri Dec 22 14:53:15 EST 2023",
+  "droneCCDParams": [
+    {
+      "makeModel": "djiFC220",
+      ...
+```
+
+### set up pre-commit hook
+
+This repository has a pre-commit hook available to automatically update the `lastUpdate` field upon your creation of a commit.
+
+After cloning this repository, set up the pre-commit hook by copying it into the folder `.git/hooks/`:
+
+```bash
+cp pre-commit .git/hooks/
+```
+
 ### Calibrate parameters for a new drone model
 
 #### Using Theta's [camera-calibration.py](https://github.com/Theta-Limited/camera-calibration)
