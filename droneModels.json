@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Fri Dec 22 15:23:47 EST 2023",
+  "lastUpdate": "Sat Jan 13 20:16:08 EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1128,6 +1128,37 @@
     },
     {
       "makeModel": "parrotANAFIUSA",
+      "isThermal": true,
+      "focalLength": 4.3,
+      "ccdWidthMMPerPixel": "3.840/320",
+      "ccdHeightMMPerPixel": "3.072/256",
+      "widthPixels": 320,
+      "heightPixels": 256,
+      "comment": "FLIR Boson 320 4.3mm focal length",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
+    },
+    {
+      "makeModel": "parrotANAFITHERMAL",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "5.963396/5344.0",
+      "ccdHeightMMPerPixel": "4.428166/4016.0",
+      "widthPixels": 5344,
+      "heightPixels": 4016,
+      "comment": "Sony IMX230 CMOS sensor",
+      "lensType": "perspective",
+      "radialR1": -0.249096,
+      "radialR2": 0.0199733,
+      "radialR3": 0.0116606,
+      "tangentialT1": 0.0001663350,
+      "tangentialT2": 0.000881907
+    },
+    {
+      "makeModel": "parrotANAFITHERMAL",
       "isThermal": true,
       "focalLength": 4.3,
       "ccdWidthMMPerPixel": "3.840/320",
