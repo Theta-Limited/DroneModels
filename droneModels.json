@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Jan 13 20:16:08 EST 2024",
+  "lastUpdate": "Sat Jan 20 17:05:50 EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -248,6 +248,21 @@
       "radialR3": 0.22906477778853437,
       "tangentialT1": -0.004601610146546272,
       "tangentialT2": 0.0026292475166887
+    },
+    {
+      "makeModel": "djiFC8482",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "0.002225663181466/1.0",
+      "ccdHeightMMPerPixel": "0.002221383424304/1.0",
+      "widthPixels": 4032,
+      "heightPixels": 3024,
+      "comment": "DJI Mini 4 Pro",
+      "lensType": "perspective",
+      "radialR1": 0.14007904012723732,
+      "radialR2": -0.39797006527367595,
+      "radialR3": 0.4837999442176295,
+      "tangentialT1": -0.0033106377888616196,
+      "tangentialT2": 0.002201030939220962
     },
     {
       "makeModel": "djiFC2200",
