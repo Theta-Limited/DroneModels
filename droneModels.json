@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Jan 20 17:05:50 EST 2024",
+  "lastUpdate": "Sat Jan 20 17:14:56 EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -267,32 +267,32 @@
     {
       "makeModel": "djiFC2200",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "4.4/2933.562271528076",
-      "ccdHeightMMPerPixel": "4.4/2940.8179764775678",
+      "ccdWidthMMPerPixel": "6.3175/4000",
+      "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
       "heightPixels": 3000,
       "comment": "DJI Mavic 2 Zoom",
       "lensType": "perspective",
-      "radialR1": -0.028828773776982133,
-      "radialR2": 0.09993822918915388,
-      "radialR3": -0.1115718821888981,
-      "tangentialT1": -0.003336146858018331,
-      "tangentialT2": 0.000802392175979178
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
     },
     {
       "makeModel": "djiFC2204",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "4.4/2933.562271528076",
-      "ccdHeightMMPerPixel": "4.4/2940.8179764775678",
+      "ccdWidthMMPerPixel": "6.3175/4000",
+      "ccdHeightMMPerPixel": "4.73812/3000.0",
       "widthPixels": 4000,
       "heightPixels": 3000,
       "comment": "DJI Mavic 2 Enterprise Zoom",
       "lensType": "perspective",
-      "radialR1": -0.028828773776982133,
-      "radialR2": 0.09993822918915388,
-      "radialR3": -0.1115718821888981,
-      "tangentialT1": -0.003336146858018331,
-      "tangentialT2": 0.000802392175979178
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
     },
     {
       "makeModel": "djiL1D-20C",
