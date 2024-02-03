@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Jan 20 17:14:56 EST 2024",
+  "lastUpdate": "Fri Feb  2 07:42:23 PM EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1104,6 +1104,36 @@
       "widthPixels": 640,
       "heightPixels": 512,
       "comment": "Autel EVO II v2 and EVO II DUAL thermal camera Uncooled VOx Microbolometer 13mm focal length",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "autel roboticsXL709",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "0.0022595335/1.0",
+      "ccdHeightMMPerPixel": "0.0022595335/1.0",
+      "widthPixels": 4096,
+      "heightPixels": 3072,
+      "comment": "Autel EVO II v3 640T color camera",
+      "lensType": "perspective",
+      "radialR1": -0.0235,
+      "radialR2": 0.0998,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "autel roboticsXL709",
+      "isThermal": true,
+      "ccdWidthMMPerPixel": "7.68/640",
+      "ccdHeightMMPerPixel": "6.144/512",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "Autel EVO II v3 thermal camera Uncooled VOx Microbolometer 13mm focal length",
       "lensType": "perspective",
       "radialR1": 0,
       "radialR2": 0,
