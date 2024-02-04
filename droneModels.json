@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Feb  3 11:11:28 PM EST 2024",
+  "lastUpdate": "Sat Feb  3 11:29:10 PM EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1113,7 +1113,7 @@
     },
     {
       "makeModel": "autel roboticsXL709",
-      "isThermal": "false",
+      "isThermal": false,
       "ccdWidthMMPerPixel": "0.002303150750568766/1.0",
       "ccdHeightMMPerPixel": "0.002301141681291956/1.0",
       "widthPixels": 4096,
