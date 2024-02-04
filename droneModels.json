@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Fri Feb  2 07:42:23 PM EST 2024",
+  "lastUpdate": "Sat Feb  3 11:11:28 PM EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1113,18 +1113,18 @@
     },
     {
       "makeModel": "autel roboticsXL709",
-      "isThermal": false,
-      "ccdWidthMMPerPixel": "0.0022595335/1.0",
-      "ccdHeightMMPerPixel": "0.0022595335/1.0",
+      "isThermal": "false",
+      "ccdWidthMMPerPixel": "0.002303150750568766/1.0",
+      "ccdHeightMMPerPixel": "0.002301141681291956/1.0",
       "widthPixels": 4096,
       "heightPixels": 3072,
       "comment": "Autel EVO II v3 640T color camera",
       "lensType": "perspective",
-      "radialR1": -0.0235,
-      "radialR2": 0.0998,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": -0.0004244098190772731,
+      "radialR2": -0.0797754595264145,
+      "radialR3": 0.4179951097509253,
+      "tangentialT1": 0.006602500528615096,
+      "tangentialT2": 0.0010884408522303954
     },
     {
       "makeModel": "autel roboticsXL709",
