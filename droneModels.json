@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Tue Mar 19 14:48:44 EDT 2024",
+  "lastUpdate": "Fri Mar 22 04:09:15 PM EDT 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1058,7 +1058,7 @@
       "ccdHeightMMPerPixel": "9.88/12611.0291",
       "widthPixels": 9248,
       "heightPixels": 6944,
-      "comment": "Skydio X10 and X10D Narrow Camera (exif name unconfirmed)",
+      "comment": "Skydio X10 and X10D Narrow Camera",
       "lensType": "perspective",
       "radialR1": 0.29974,
       "radialR2": -2.41630,
@@ -1073,7 +1073,7 @@
       "ccdHeightMMPerPixel": "9.88/12611.0291",
       "widthPixels": 9248,
       "heightPixels": 6944,
-      "comment": "Skydio X10D L variant Narrow Camera (exif name unconfirmed)",
+      "comment": "Skydio X10D L variant Narrow Camera",
       "lensType": "perspective",
       "radialR1": 0.29974,
       "radialR2": -2.41630,
@@ -1088,7 +1088,7 @@
       "ccdHeightMMPerPixel": "35.0/43724.5833",
       "widthPixels": 8000,
       "heightPixels": 6000,
-      "comment": "Skydio X10 and X10D VT300-Z variant Telephoto Camera (exif name unconfirmed)",
+      "comment": "Skydio X10 and X10D VT300-Z variant Telephoto Camera",
       "lensType": "perspective",
       "radialR1": 0.0,
       "radialR2": 0.0,
@@ -1097,14 +1097,14 @@
       "tangentialT2": 0.0
     },
     {
-      "makeModel": "skydioVT300-Z_40",
+      "makeModel": "skydioVT300-Z_40IR",
       "isThermal": true,
       "focalLength": 13.6,
       "ccdWidthMMPerPixel": "13.6/1135.47",
       "ccdHeightMMPerPixel": "13.6/1141.15",
       "widthPixels": 640,
       "heightPixels": 512,
-      "comment": "Skydio X10 and X10D VT300-Z variant Thermal Camera (exif name unconfirmed)",
+      "comment": "Skydio X10 and X10D VT300-Z variant Thermal Camera",
       "lensType": "perspective",
       "radialR1": 0.0,
       "radialR2": 0.0,
@@ -1113,14 +1113,14 @@
       "tangentialT2": 0.0
     },
     {
-      "makeModel": "skydioVT300-L_40",
+      "makeModel": "skydioVT300-L_40IR",
       "isThermal": true,
       "focalLength": 13.6,
       "ccdWidthMMPerPixel": "13.6/1135.47",
       "ccdHeightMMPerPixel": "13.6/1141.15",
       "widthPixels": 640,
       "heightPixels": 512,
-      "comment": "Skydio X10D VT300-L variant Thermal Camera (exif name unconfirmed)",
+      "comment": "Skydio X10D VT300-L variant Thermal Camera",
       "lensType": "perspective",
       "radialR1": 0.0,
       "radialR2": 0.0,
