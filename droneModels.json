@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Jul  6 02:24:46 PM EDT 2024",
+  "lastUpdate": "Sat Jul  6 02:27:02 PM EDT 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1212,21 +1212,6 @@
       "widthPixels": 5472,
       "heightPixels": 3648,
       "comment": "Autel EVO II Pro 6K v3 camera, Sony IMX383 CMOS sensor, https://commonlands.com/blogs/technical/cmos-sensor-size, https://www.sony-semicon.com/files/62/pdf/p-13_IMX383-AAQK_Flyer.pdf",
-      "lensType": "perspective",
-      "radialR1": 0.0665994,
-      "radialR2": -0.211744,
-      "radialR3": 0.246277,
-      "tangentialT1": 0.00331114,
-      "tangentialT2": 0.000732718
-    },
-    {
-      "makeModel": "autel roboticsXT705",
-      "isThermal": false,
-      "ccdWidthMMPerPixel": "12.75016/5472.0",
-      "ccdHeightMMPerPixel": "8.690014/3648.0",
-      "widthPixels": 5472,
-      "heightPixels": 3648,
-      "comment": "Autel EVO II Pro camera, Sony IMX383 CMOS sensor, https://commonlands.com/blogs/technical/cmos-sensor-size, https://www.sony-semicon.com/files/62/pdf/p-13_IMX383-AAQK_Flyer.pdf",
       "lensType": "perspective",
       "radialR1": 0.0665994,
       "radialR2": -0.211744,
