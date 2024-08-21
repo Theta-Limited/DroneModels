@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Jul  6 02:27:02 PM EDT 2024",
+  "lastUpdate": "Wed Aug 21 12:34:44 PM EDT 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1404,6 +1404,41 @@
       "d": 0.0,
       "e": 0.0,
       "f": 2203.93
+    },
+    {
+      "makeModel": "Teledyne FLIRHadron 640R EO",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "6.482848/9248.0",
+      "ccdHeightMMPerPixel": "4.867744/6944.0",
+      "widthPixels": 9248,
+      "heightPixels": 6944,
+      "comment": "Teal2: Hadron 640R EO sensor",
+      "lensType": "perspective",
+      "poly0": 0.0,
+      "poly1": 0.0,
+      "poly2": -0.0,
+      "poly3": 0.0,
+      "poly4": -0.0,
+      "c": 0.0,
+      "d": 0.0,
+      "e": 0.0,
+      "f": 0.0
+    },
+    {
+      "makeModel": "Teledyne FLIRBoson 640",
+      "isThermal": true,
+      "focalLength": 13.6,
+      "ccdWidthMMPerPixel": "7.68/512",
+      "ccdHeightMMPerPixel": "5.76/640",
+      "widthPixels": 640,
+      "heightPixels": 512,
+      "comment": "Teal2: Boson 640 13.6mm focal length",
+      "lensType": "perspective",
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0
     }
   ]
 }
