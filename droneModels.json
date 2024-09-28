@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Fri Aug 23 09:24:50 PM EDT 2024",
+  "lastUpdate": "Sat Sep 28 08:56:39 EDT 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -296,6 +296,21 @@
     },
     {
       "makeModel": "djiL1D-20C",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "12.825/5472.0",
+      "ccdHeightMMPerPixel": "8.55/3648.0",
+      "widthPixels": 5472,
+      "heightPixels": 3648,
+      "comment": "DJI Mavic 2 Pro, hasselblad",
+      "lensType": "perspective",
+      "radialR1": 0.00874622,
+      "radialR2": 0.0404995,
+      "radialR3": -0.0496908,
+      "tangentialT1": -0.00341694,
+      "tangentialT2": 0.00219427
+    },
+    {
+      "makeModel": "hasselbladL1D-20C",
       "isThermal": false,
       "ccdWidthMMPerPixel": "12.825/5472.0",
       "ccdHeightMMPerPixel": "8.55/3648.0",
