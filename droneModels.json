@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Sep 28 08:56:39 EDT 2024",
+  "lastUpdate": "Sat Sep 28 09:21:00 EDT 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -340,7 +340,37 @@
       "tangentialT2": -0.000564484
     },
     {
+      "makeModel": "hasselbladL2D-20C",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "17.902472/5280.0",
+      "ccdHeightMMPerPixel": "13.357522/3956.0",
+      "widthPixels": 5280,
+      "heightPixels": 3956,
+      "comment": "DJI Mavic 3 Main Hasselblad Camera",
+      "lensType": "perspective",
+      "radialR1": 0.0044647,
+      "radialR2": -0.00549164,
+      "radialR3": 0.0246166,
+      "tangentialT1": -0.000468935,
+      "tangentialT2": -0.000564484
+    },
+    {
       "makeModel": "djiFC4170",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "6.4/4000.0",
+      "ccdHeightMMPerPixel": "4.8/3000.0",
+      "widthPixels": 4000,
+      "heightPixels": 3000,
+      "comment": "DJI Mavic 3 1/2-in. Telephoto Camera",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "hasselbladFC4170",
       "isThermal": false,
       "ccdWidthMMPerPixel": "6.4/4000.0",
       "ccdHeightMMPerPixel": "4.8/3000.0",
@@ -370,7 +400,37 @@
       "tangentialT2": 0
     },
     {
+      "makeModel": "hasselbladFC4382",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "7.385/8064.0",
+      "ccdHeightMMPerPixel": "5.538/6048.0",
+      "widthPixels": 8064,
+      "heightPixels": 6048,
+      "comment": "DJI Mavic 3 Pro 1/1.3-in. Medium Telephoto Camera",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
       "makeModel": "djiM3E",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "17.456274/5280.0",
+      "ccdHeightMMPerPixel": "12.988404/3956.0",
+      "widthPixels": 5280,
+      "heightPixels": 3956,
+      "comment": "DJI Mavic 3 Enterprise Main Hasselblad Camera",
+      "lensType": "perspective",
+      "radialR1": -0.111398,
+      "radialR2": 0.0122439,
+      "radialR3": -0.0269388,
+      "tangentialT1": -0.000204996,
+      "tangentialT2": -0.000119487
+    },
+    {
+      "makeModel": "hasselbladM3E",
       "isThermal": false,
       "ccdWidthMMPerPixel": "17.456274/5280.0",
       "ccdHeightMMPerPixel": "12.988404/3956.0",
