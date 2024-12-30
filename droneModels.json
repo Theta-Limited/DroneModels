@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Tue Nov 12 23:15:51 EST 2024",
+  "lastUpdate": "Mon Dec 30 02:01:33 PM EST 2024",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1347,6 +1347,36 @@
       "widthPixels": 640,
       "heightPixels": 512,
       "comment": "Autel EVO II v3 thermal camera Uncooled VOx Microbolometer 13mm focal length",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "autel roboticsXT724",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "0.0016/1.0",
+      "ccdHeightMMPerPixel": "0.0016/1.0",
+      "widthPixels": 8000,
+      "heightPixels": 6000,
+      "comment": "Autel EVO Nano (base not plus) unknown 1/2 inch CMOS sensor 48 MP approx values from spec sheet",
+      "lensType": "perspective",
+      "radialR1": 0,
+      "radialR2": 0,
+      "radialR3": 0,
+      "tangentialT1": 0,
+      "tangentialT2": 0
+    },
+    {
+      "makeModel": "autel roboticsXL724",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "0.00122/1.0",
+      "ccdHeightMMPerPixel": "0.00122/1.0",
+      "widthPixels": 8192,
+      "heightPixels": 6144,
+      "comment": "Autel EVO Nano+ unknown 1/1.28 inch CMOS sensor 50 MP questionable values from xmp.camera.principalpoint and logical deduction",
       "lensType": "perspective",
       "radialR1": 0,
       "radialR2": 0,
