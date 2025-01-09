@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Mon Dec 30 02:01:33 PM EST 2024",
+  "lastUpdate": "Thu Jan  9 01:44:43 PM EST 2025",
   "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1603,6 +1603,21 @@
       "radialR3": 0.0,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0
+    },
+    {
+        "makeModel": "djiFC8671",
+        "isThermal": false,
+        "ccdWidthMMPerPixel": "0.0009968493612761895/1.0",
+        "ccdHeightMMPerPixel": "0.0009948496899629391/1.0",
+        "widthPixels": 4000,
+        "heightPixels": 3000,
+        "lensType": "perspective",
+        "radialR1": "0.0180039203282492",
+        "radialR2": "0.0536190340320505",
+        "radialR3": "-0.0867565391815810",
+        "tangentialT1": "-0.0043519152978749",
+        "tangentialT2": "0.0030075461592873",
+        "comment": "DJI Neo"
     }
   ]
 }
