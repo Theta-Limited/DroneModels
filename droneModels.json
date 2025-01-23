@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "Thu Jan  9 01:44:43 PM EST 2025",
-  "droneCCDParams": [
+    "lastUpdate": "Thu Jan 23 05:23:10 PM EST 2025",
+    "droneCCDParams": [
     {
       "makeModel": "djiFC220",
       "isThermal": false,
@@ -1618,6 +1618,21 @@
         "tangentialT1": "-0.0043519152978749",
         "tangentialT2": "0.0030075461592873",
         "comment": "DJI Neo"
+    },
+    {
+        "makeModel": "autel roboticsXL715",
+        "isThermal": false,
+        "ccdWidthMMPerPixel": "0.0007866734233666855/1.0",
+        "ccdHeightMMPerPixel": "0.0007843064474918186/1.0",
+        "widthPixels": 8000,
+        "heightPixels": 6000,
+        "lensType": "perspective",
+        "radialR1": "0.3241612708611336",
+        "radialR2": "-0.9719975988274531",
+        "radialR3": "0.8700048511379080",
+        "tangentialT1": "-0.0047088288379040",
+        "tangentialT2": "0.0009659917768111",
+        "comment": "Autel Evo Lite 640t"
     }
   ]
 }
