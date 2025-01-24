@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Thu Jan 23 05:23:10 PM EST 2025",
+    "lastUpdate": "Thu Jan 23 08:35:59 PM EST 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1355,6 +1355,37 @@
       "tangentialT2": 0
     },
     {
+        "makeModel": "autel roboticsXL715",
+        "isThermal": false,
+        "ccdWidthMMPerPixel": "0.0007866734233666855/1.0",
+        "ccdHeightMMPerPixel": "0.0007843064474918186/1.0",
+        "widthPixels": 8000,
+        "heightPixels": 6000,
+        "lensType": "perspective",
+        "radialR1": "0.3241612708611336",
+        "radialR2": "-0.9719975988274531",
+        "radialR3": "0.8700048511379080",
+        "tangentialT1": "-0.0047088288379040",
+        "tangentialT2": "0.0009659917768111",
+        "comment": "Autel Evo Lite 640t Enterprise color camera"
+    },
+    {
+        "makeModel": "autel roboticsXL715",
+        "isThermal": true,
+        "focalLength" : 9.1,
+        "ccdWidthMMPerPixel": "7.68/640",
+        "ccdHeightMMPerPixel": "6.144/512",
+        "widthPixels": 640,
+        "heightPixels": 512,
+        "lensType": "perspective",
+        "radialR1": 0,
+        "radialR2": 0,
+        "radialR3": 0,
+        "tangentialT1": 0,
+        "tangentialT2": 0,
+        "comment": "Autel Evo Lite 640t Enterprise thermal camera 9.1mm focal length"
+    },
+    {
       "makeModel": "autel roboticsXT724",
       "isThermal": false,
       "ccdWidthMMPerPixel": "0.0016/1.0",
@@ -1618,21 +1649,6 @@
         "tangentialT1": "-0.0043519152978749",
         "tangentialT2": "0.0030075461592873",
         "comment": "DJI Neo"
-    },
-    {
-        "makeModel": "autel roboticsXL715",
-        "isThermal": false,
-        "ccdWidthMMPerPixel": "0.0007866734233666855/1.0",
-        "ccdHeightMMPerPixel": "0.0007843064474918186/1.0",
-        "widthPixels": 8000,
-        "heightPixels": 6000,
-        "lensType": "perspective",
-        "radialR1": "0.3241612708611336",
-        "radialR2": "-0.9719975988274531",
-        "radialR3": "0.8700048511379080",
-        "tangentialT1": "-0.0047088288379040",
-        "tangentialT2": "0.0009659917768111",
-        "comment": "Autel Evo Lite 640t"
     }
   ]
 }
