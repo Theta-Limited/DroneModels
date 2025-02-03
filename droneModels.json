@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Sun Feb  2 11:44:29 PM EST 2025",
+    "lastUpdate": "Sun Feb  2 11:50:44 PM EST 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -325,21 +325,6 @@
       "tangentialT2": 0.00219427
     },
     {
-      "makeModel": "djiL2D-20C",
-      "isThermal": false,
-      "ccdWidthMMPerPixel": "17.902472/5280.0",
-      "ccdHeightMMPerPixel": "13.357522/3956.0",
-      "widthPixels": 5280,
-      "heightPixels": 3956,
-      "comment": "DJI Mavic 3 Main Hasselblad Camera",
-      "lensType": "perspective",
-      "radialR1": 0.0044647,
-      "radialR2": -0.00549164,
-      "radialR3": 0.0246166,
-      "tangentialT1": -0.000468935,
-      "tangentialT2": -0.000564484
-    },
-    {
       "makeModel": "hasselbladL2D-20C",
       "isThermal": false,
       "ccdWidthMMPerPixel": "17.902472/5280.0",
@@ -401,21 +386,6 @@
     },
     {
       "makeModel": "djiFC4382",
-      "isThermal": false,
-      "ccdWidthMMPerPixel": "7.385/8064.0",
-      "ccdHeightMMPerPixel": "5.538/6048.0",
-      "widthPixels": 8064,
-      "heightPixels": 6048,
-      "comment": "DJI Mavic 3 Pro 1/1.3-in. Medium Telephoto Camera",
-      "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
-    },
-    {
-      "makeModel": "hasselbladFC4382",
       "isThermal": false,
       "ccdWidthMMPerPixel": "7.385/8064.0",
       "ccdHeightMMPerPixel": "5.538/6048.0",
