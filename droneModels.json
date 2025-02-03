@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Sun Feb  2 11:58:18 PM EST 2025",
+    "lastUpdate": "Mon Feb  3 12:27:06 AM EST 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -341,21 +341,6 @@
     },
     {
       "makeModel": "djiFC4170",
-      "isThermal": false,
-      "ccdWidthMMPerPixel": "6.4/4000.0",
-      "ccdHeightMMPerPixel": "4.8/3000.0",
-      "widthPixels": 4000,
-      "heightPixels": 3000,
-      "comment": "DJI Mavic 3 1/2-in. Telephoto Camera",
-      "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
-    },
-    {
-      "makeModel": "hasselbladFC4170",
       "isThermal": false,
       "ccdWidthMMPerPixel": "6.4/4000.0",
       "ccdHeightMMPerPixel": "4.8/3000.0",
