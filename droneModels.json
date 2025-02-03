@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Sun Feb  2 11:50:44 PM EST 2025",
+    "lastUpdate": "Sun Feb  2 11:58:18 PM EST 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -387,17 +387,17 @@
     {
       "makeModel": "djiFC4382",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "7.385/8064.0",
-      "ccdHeightMMPerPixel": "5.538/6048.0",
-      "widthPixels": 8064,
-      "heightPixels": 6048,
-      "comment": "DJI Mavic 3 Pro 1/1.3-in. Medium Telephoto Camera",
+      "ccdWidthMMPerPixel": "0.002146467050210994/1.0",
+      "ccdHeightMMPerPixel": "0.0021372134436753163/1.0",
+      "widthPixels": 4032,
+      "heightPixels": 3024,
       "lensType": "perspective",
-      "radialR1": 0,
-      "radialR2": 0,
-      "radialR3": 0,
-      "tangentialT1": 0,
-      "tangentialT2": 0
+      "radialR1": "-0.2494834643930936",
+      "radialR2": "1.8039776846375912",
+      "radialR3": "-6.4360715619716755",
+      "tangentialT1": "-0.0111020295182332",
+      "tangentialT2": "-0.0027645598564520",
+      "comment": "Mavic 3 Pro 3x Medium Tele Camera"
     },
     {
       "makeModel": "djiM3E",
