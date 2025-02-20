@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Mon Feb  3 12:27:06 AM EST 2025",
+    "lastUpdate": "Thu Feb 20 06:10:12 PM EST 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -362,11 +362,11 @@
       "widthPixels": 4000,
       "heightPixels": 3000,
       "lensType": "perspective",
-      "radialR1": "0.2119772993564918",
-      "radialR2": "-9.7377257055902149",
-      "radialR3": "153.2620607952700880",
-      "tangentialT1": "-0.0316918248764225",
-      "tangentialT2": "0.0107044247546374",
+      "radialR1": 0.2119772993564918,
+      "radialR2": -9.7377257055902149,
+      "radialR3": 153.2620607952700880,
+      "tangentialT1": -0.0316918248764225,
+      "tangentialT2": 0.0107044247546374,
       "comment": "Mavic 3 Pro 7x Telephoto Camera"
     },
     {
@@ -377,11 +377,11 @@
       "widthPixels": 4032,
       "heightPixels": 3024,
       "lensType": "perspective",
-      "radialR1": "-0.2494834643930936",
-      "radialR2": "1.8039776846375912",
-      "radialR3": "-6.4360715619716755",
-      "tangentialT1": "-0.0111020295182332",
-      "tangentialT2": "-0.0027645598564520",
+      "radialR1": -0.2494834643930936,
+      "radialR2": 1.8039776846375912,
+      "radialR3": -6.4360715619716755,
+      "tangentialT1": -0.0111020295182332,
+      "tangentialT2": -0.0027645598564520,
       "comment": "Mavic 3 Pro 3x Medium Tele Camera"
     },
     {
@@ -1332,11 +1332,11 @@
         "widthPixels": 8000,
         "heightPixels": 6000,
         "lensType": "perspective",
-        "radialR1": "0.3241612708611336",
-        "radialR2": "-0.9719975988274531",
-        "radialR3": "0.8700048511379080",
-        "tangentialT1": "-0.0047088288379040",
-        "tangentialT2": "0.0009659917768111",
+        "radialR1": 0.3241612708611336,
+        "radialR2": -0.9719975988274531,
+        "radialR3": 0.8700048511379080,
+        "tangentialT1": -0.0047088288379040,
+        "tangentialT2": 0.0009659917768111,
         "comment": "Autel Evo Lite 640t Enterprise color camera"
     },
     {
@@ -1613,11 +1613,11 @@
         "widthPixels": 4000,
         "heightPixels": 3000,
         "lensType": "perspective",
-        "radialR1": "0.0180039203282492",
-        "radialR2": "0.0536190340320505",
-        "radialR3": "-0.0867565391815810",
-        "tangentialT1": "-0.0043519152978749",
-        "tangentialT2": "0.0030075461592873",
+        "radialR1": 0.0180039203282492,
+        "radialR2": 0.0536190340320505,
+        "radialR3": -0.0867565391815810,
+        "tangentialT1": -0.0043519152978749,
+        "tangentialT2": 0.0030075461592873,
         "comment": "DJI Neo"
     }
   ]
