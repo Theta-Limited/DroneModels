@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Thu Feb 20 06:10:12 PM EST 2025",
+    "lastUpdate": "Tue Mar 25 05:38:37 PM EDT 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1388,32 +1388,32 @@
     {
       "makeModel": "parrotANAFI",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "5.963396/5344.0",
-      "ccdHeightMMPerPixel": "4.428166/4016.0",
+      "ccdWidthMMPerPixel": "0.0011243193621822568/1.0",
+      "ccdHeightMMPerPixel": "0.0011227729237075993/1.0",
       "widthPixels": 5344,
       "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": -0.249096,
-      "radialR2": 0.0199733,
-      "radialR3": 0.0116606,
-      "tangentialT1": 0.0001663350,
-      "tangentialT2": 0.000881907
+      "radialR1": -0.2611037143697243,
+      "radialR2": 0.0451191919903731,
+      "radialR3": 0.0009053749758353,
+      "tangentialT1": -0.0001089328248685,
+      "tangentialT2": 0.0004123953124223
     },
     {
       "makeModel": "parrotANAFIUSA",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "5.963396/5344.0",
-      "ccdHeightMMPerPixel": "4.428166/4016.0",
+      "ccdWidthMMPerPixel": "0.0011243193621822568/1.0",
+      "ccdHeightMMPerPixel": "0.0011227729237075993/1.0",
       "widthPixels": 5344,
       "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": -0.249096,
-      "radialR2": 0.0199733,
-      "radialR3": 0.0116606,
-      "tangentialT1": 0.0001663350,
-      "tangentialT2": 0.000881907
+      "radialR1": -0.2611037143697243,
+      "radialR2": 0.0451191919903731,
+      "radialR3": 0.0009053749758353,
+      "tangentialT1": -0.0001089328248685,
+      "tangentialT2": 0.0004123953124223
     },
     {
       "makeModel": "parrotANAFIUSA",
@@ -1434,17 +1434,17 @@
     {
       "makeModel": "parrotANAFITHERMAL",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "5.963396/5344.0",
-      "ccdHeightMMPerPixel": "4.428166/4016.0",
+      "ccdWidthMMPerPixel": "0.0011243193621822568/1.0",
+      "ccdHeightMMPerPixel": "0.0011227729237075993/1.0",
       "widthPixels": 5344,
       "heightPixels": 4016,
       "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": -0.249096,
-      "radialR2": 0.0199733,
-      "radialR3": 0.0116606,
-      "tangentialT1": 0.0001663350,
-      "tangentialT2": 0.000881907
+      "radialR1": -0.2611037143697243,
+      "radialR2": 0.0451191919903731,
+      "radialR3": 0.0009053749758353,
+      "tangentialT1": -0.0001089328248685,
+      "tangentialT2": 0.0004123953124223
     },
     {
       "makeModel": "parrotANAFITHERMAL",
@@ -1465,17 +1465,17 @@
     {
       "makeModel": "parrotANAFIUA",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "5.963396/5344.0",
-      "ccdHeightMMPerPixel": "4.428166/4016.0",
+      "ccdWidthMMPerPixel": "0.0011243193621822568/1.0",
+      "ccdHeightMMPerPixel": "0.0011227729237075993/1.0",
       "widthPixels": 5344,
       "heightPixels": 4016,
-      "comment": "Sony IMX230 CMOS sensor",
       "lensType": "perspective",
-      "radialR1": -0.249096,
-      "radialR2": 0.0199733,
-      "radialR3": 0.0116606,
-      "tangentialT1": 0.0001663350,
-      "tangentialT2": 0.000881907
+      "radialR1": -0.2611037143697243,
+      "radialR2": 0.0451191919903731,
+      "radialR3": 0.0009053749758353,
+      "tangentialT1": -0.0001089328248685,
+      "tangentialT2": 0.0004123953124223,
+      "comment": "Parrot Anafi USA Mil Sony IMX230 CMOS sensor"
     },
     {
       "makeModel": "parrotANAFIAI",
