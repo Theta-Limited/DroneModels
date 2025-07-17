@@ -20,25 +20,28 @@ The exit code should be 0 if the file is syntactically correct.
 Here is an example of a JSONObject for a particluar make/model of drone:
 ```JSON
     {
-      "makeModel": "djiFC6310",
+      "makeModel": "djiFC2204",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "12.83332/5472.0",
-      "ccdHeightMMPerPixel": "8.55554/3648.0",
-      "widthPixels": 5472,
-      "heightPixels": 3648,
-      "comment": "DJI Phantom 4 Pro, DJI Phantom 4 Advanced",
+      "ccdWidthMMPerPixel": "6.3175/4000",
+      "ccdHeightMMPerPixel": "4.73812/3000.0",
+      "widthPixels": 4000,
+      "heightPixels": 3000,
+      "comment": "DJI Mavic 2 Enterprise Zoom",
       "lensType": "perspective",
-      "radialR1": 0.00298599,
-      "radialR2": -0.00769116,
-      "radialR3": 0.0079115,
-      "tangentialT1": -0.000129713,
-      "tangentialT2": 0.000221193
+      "radialR1": 0.0,
+      "radialR2": 0.0,
+      "radialR3": 0.0,
+      "tangentialT1": 0.0,
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 7.6924,
+      "tle_model_slant_range_coeff" : 0.03293,
+      "tle_model_slant_ratio_coeff" : -0.70966
     }
 ```
 
 In this object:
 * `makeModel` represents the EXIF make and model String merged together, a unique String representing a specific drone model. The EXIF make String is made all lowercase, while the EXIF model String is made all uppercase.
-* `focalLength` is an optional parameter which represents the distance between the focal point (the part of the lens that all light passes through) and the CCD/CMOS sensor which digitizes incoming light. This is only provided in rare cases when such data is unavailable in a camera model's image EXIF data.
+* `focalLength` is an optional parameter which represents the distance between the focal point (the part of the lens that all light passes through) and the CCD/CMOS sensor which digitizes incoming light. This is only included in rare cases when such data is unavailable in a camera model's image EXIF data (such as some thermal cameras).
 * `isThermal` represents whether this particular JSONObject represents the thermal or color camera of a given drone. This is used to solve name collisions in the `makeModel` String that occur when both the thermal and color cameras of a drone report the same model name despite having different parameters.
 * `ccdWidthMMPerPixel` represents the width of each pixel (in millimeters) of the drone camera's CCD/CMOS sensor which digitizes incoming light
 * `ccdHeightMMPerPixel` represents the height of each pixel (in millimeters) of the drone camera's CCD/CMOS sensor which digitizes incoming light
@@ -46,17 +49,22 @@ In this object:
 * `heightPixels` represents the number of pixels in the height of a camera's uncropped, full resolution image
 * `comment` represents a comment from the author of the object which gives insight into the camera's corresponding drone model and properties
 * `lensType` is one of two values: `perspective` or `fisheye`, used for applying the correct correction equations for distortion of incoming light by the camera lens. Read below for further details
-* `radialR1` represents the first radial distortion coefficient for the camera's lens
-* `radialR2` represents the second radial distortion coefficient for the camera's lens
-* `radialR3` represents the third radial distortion coefficient for the camera's lens
-* `tangentialT1` represents the first tangential distortion coefficient for the camera's lens
-* `tangentialT2` represents the second tangential distortion coefficient for the camera's lens
+* `radialR1` represents the first radial distortion coefficient for the camera's lens. Optional
+* `radialR2` represents the second radial distortion coefficient for the camera's lens. Optional
+* `radialR3` represents the third radial distortion coefficient for the camera's lens. Optional
+* `tangentialT1` represents the first tangential distortion coefficient for the camera's lens. Optional
+* `tangentialT2` represents the second tangential distortion coefficient for the camera's lens. Optional
+* `tle_model_y_intercept` represents the y intercept (starting value) for the target location error linear model for this drone. Optional
+* `tle_model_slant_range_coeff` represents how much (in meters) each additional meter of distance adds to target location error for this drone. Optional
+* `tle_model_slant_ratio_coeff` represents how the vertical:horizontal distance slant ratio effects target location error. May be zero in some cases. Optional
 
 ### Distortion parameters
 
-OpenAthena's basic calculation for ray angle from a selected image point is based on the [idealized pinhole camera model](https://towardsdatascience.com/camera-intrinsic-matrix-with-example-in-python-d79bf2478c12?gi=8bd7b436d2d3). This model makes no consideration of the properties of the actual camera lens, which introduces its own image distortion subtly different than may be expected by the pinhole camera model. These distortions may be [especially pronounced with zoom lenses at larger focal lengths](https://en.wikipedia.org/wiki/Distortion_(optics))
+OpenAthena's basic calculation for ray angle from a selected image point is based on the [idealized pinhole camera model](https://towardsdatascience.com/camera-intrinsic-matrix-with-example-in-python-d79bf2478c12?gi=8bd7b436d2d3). This model makes no consideration of the properties of the actual camera lens, which introduces its own image distortion subtly different than may be expected by the pinhole camera model. 
 
-If calibration data (based on real-world calibration with a particular camera model) is present, OpenAthena may use certain parameters to apply a mathematical correction for the distortion a particular camera lens causes. This allows the calculated ray angle for an arbitrary image point to be more accurate.
+The effects of lens distortion are usually insignificant for most cameras with perspective lenses; therefore these parameters may be considered optional.
+
+If calibration data (based on real-world calibration with a particular camera model) is present, OpenAthena may use certain parameters to apply a mathematical correction for the distortion a particular camera lens causes. This allows the calculated ray angle for an arbitrary image point to be slightly more accurate.
 
 These two links describe the applicable mathematical formulas:
 
@@ -66,7 +74,7 @@ https://www.mathworks.com/help/vision/ug/camera-calibration.html#:~:text=The%20i
 
 The type correction applied depends on whether the `lensType` is either `perspective` or `fisheye`.
 
-`perspective` cameras have the parameters `radialR1`, `radialR2`, `radialR3`, `tangentialT1`, and `tangentialT2`, and such an JSONObject may look like this:
+`perspective` cameras typically have the parameters `radialR1`, `radialR2`, `radialR3`, `tangentialT1`, and `tangentialT2`, and such an JSONObject may look like this:
 ```JSON
     {
       "makeModel": "djiL2D-20C",
@@ -108,6 +116,19 @@ The type correction applied depends on whether the `lensType` is either `perspec
       "f": 2203.93
     }
 ```
+
+### Target Location Error (TLE) estimation model parameters
+
+The OpenAthena software estimates target location error for its calculation output using a two-factor linear model which acounts for slant range and vertical:horizontal slant ratio. These parameters are obtained from empirical test data processed with the [OA Accuracy Testing](https://github.com/Theta-Limited/OA-Accuracy-Testing/tree/main) framework.
+
+First, outliers are removed and a two factor linear model is fitted which accounts for both slant range and slant ratio. If the effect of vertical:horizontal slant ratio is statistically-insignificant (p > 0.05), this factor is omitted and a new one factor linear model is fitted which accounts for slant range only. 
+
+Next, the Accuracy Testing framework outputs:
+
+* `tle_model_y_intercept` representing the starting value for target location error, e.g. if slant range and ratio are both at 0. This is usually around 5.25 meters, which may be attributed to the (in)accuracy of common GPS units.
+* `tle_model_slant_range_coeff` representing how much (in meters) each additional meter of distance adds to target location error for this drone. Slant range has routinely been observed as the primary factor influencing target location error. Values between 0.02 and 0.035 meters error per meter distance are typical.
+* `tle_model_slant_ratio_coeff` representing how the vertical:horizontal distance slant ratio effects target location error. This may often be a negative value given that a steeper slant angle typically results in less target location error. If this factor was determined to be statistically-insignificant for a given drone, it is replaced in the model with `0.0`.
+
 
 ## Contributing new drone models
 
@@ -162,6 +183,12 @@ https://support.pix4d.com/hc/en-us/articles/202559349-Which-Cameras-exist-in-PIX
 
 Finally, convert the data from the PIX4D format to the OpenAthena JSONObject convention shown previously. Rename `radialK1` to `radialR1`, `radialK2` to `radialR2`, and `radialK3` to `radialR3`.
 
+### (optional) perform accuracy assesment for TLE model parameters
+
+Follow the procedure described below to perform an empirical accuracy assesment with a given drone and use the data to obtain target location error estimation model parameters:
+
+https://github.com/Theta-Limited/OA-Accuracy-Testing/tree/main
+
 ### Contribute your parameters to this project
 
 We welcome third party contributions, especially from drone manufactuers who would like to enhance the compatibility and accuracy of their products with OpenAthena.
@@ -174,11 +201,15 @@ When ready to submit, add and commit your changes, and push it to your fork. Fin
 
 ## Additional Information
 
-[Theta](https://theta.limited/) provides a free and open source UAS
+[Theta](https://theta.limited/) provides an open source UAS
 geodesy platform which enables a competitive advantage for its users.
 
 OpenAthena™ allows common drones to spot precise geodetic locations.
 
-An Android port of the [OpenAthena project](https://github.com/Theta-Limited/OpenAthenaAndroid)
+[OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid)
 
-An iOS port of the [OpenAthena project](https://github.com/Theta-Limited/OpenAthenaIOS)
+[OpenAthena iOS](https://github.com/Theta-Limited/OpenAthenaIOS)
+
+[OpenAthena Desktop/Core](https://github.com/Theta-Limited/OpenAthenaDesktop)
+
+[OpenAthena API](https://api.openathena.com)

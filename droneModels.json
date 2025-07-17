@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Tue Mar 25 05:38:37 PM EDT 2025",
+    "lastUpdate": "Thu Jul 17 12:32:19 AM EDT 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -277,7 +277,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 7.6924,
+      "tle_model_slant_range_coeff" : 0.03293,
+      "tle_model_slant_ratio_coeff" : -0.70966
     },
     {
       "makeModel": "djiFC2204",
@@ -292,7 +295,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 7.6924,
+      "tle_model_slant_range_coeff" : 0.03293,
+      "tle_model_slant_ratio_coeff" : -0.70966
     },
     {
       "makeModel": "djiL1D-20C",
@@ -327,17 +333,17 @@
     {
       "makeModel": "hasselbladL2D-20C",
       "isThermal": false,
-      "ccdWidthMMPerPixel": "17.902472/5280.0",
-      "ccdHeightMMPerPixel": "13.357522/3956.0",
+      "ccdWidthMMPerPixel": "0.0031677369905457314/1.0",
+      "ccdHeightMMPerPixel": "0.003159145932605883/1.0",
       "widthPixels": 5280,
       "heightPixels": 3956,
       "comment": "DJI Mavic 3 Main Hasselblad Camera",
       "lensType": "perspective",
-      "radialR1": 0.0044647,
-      "radialR2": -0.00549164,
-      "radialR3": 0.0246166,
-      "tangentialT1": -0.000468935,
-      "tangentialT2": -0.000564484
+      "radialR1": 0.0776797524640587,
+      "radialR2": -0.2096400289015785,
+      "radialR3": 0.3097800490348845,
+      "tangentialT1": -0.0056316948532672,
+      "tangentialT2": -0.0040509924616267
     },
     {
       "makeModel": "djiFC4170",
@@ -1032,7 +1038,10 @@
       "radialR2": -0.24607,
       "radialR3": 0.104529,
       "tangentialT1": -0.000175531,
-      "tangentialT2": -0.000580392
+      "tangentialT2": -0.000580392,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2 WIDE",
@@ -1047,7 +1056,10 @@
       "radialR2": -0.24607,
       "radialR3": 0.104529,
       "tangentialT1": -0.000175531,
-      "tangentialT2": -0.000580392
+      "tangentialT2": -0.000580392,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2E",
@@ -1062,7 +1074,10 @@
       "radialR2": 0.197062,
       "radialR3": -0.0681503,
       "tangentialT1": 0.00117176,
-      "tangentialT2": 0.000238774
+      "tangentialT2": 0.000238774,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2 NARROW",
@@ -1077,7 +1092,10 @@
       "radialR2": 0.197062,
       "radialR3": -0.0681503,
       "tangentialT1": 0.00117176,
-      "tangentialT2": 0.000238774
+      "tangentialT2": 0.000238774,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2 NARROW",
@@ -1093,7 +1111,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2E",
@@ -1109,7 +1130,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2D",
@@ -1124,7 +1148,10 @@
       "radialR2": 0.197062,
       "radialR3": -0.0681503,
       "tangentialT1": 0.00117176,
-      "tangentialT2": 0.000238774
+      "tangentialT2": 0.000238774,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioX2D",
@@ -1140,7 +1167,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.3834,
+      "tle_model_slant_range_coeff" : 0.020949,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioVT300-Z_50",
@@ -1155,7 +1185,10 @@
       "radialR2": -2.41630,
       "radialR3": 4.52709,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.45016,
+      "tle_model_slant_range_coeff" : 0.026358,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioVT300-L_50",
@@ -1170,7 +1203,10 @@
       "radialR2": -2.41630,
       "radialR3": 4.52709,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.45016,
+      "tle_model_slant_range_coeff" : 0.026358,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioVT300-Z_13",
@@ -1185,7 +1221,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.45016,
+      "tle_model_slant_range_coeff" : 0.026358,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioVT300-Z_40IR",
@@ -1201,7 +1240,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.45016,
+      "tle_model_slant_range_coeff" : 0.026358,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "skydioVT300-L_40IR",
@@ -1217,7 +1259,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.45016,
+      "tle_model_slant_range_coeff" : 0.026358,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "autel roboticsXT701",
@@ -1398,7 +1443,10 @@
       "radialR2": 0.0451191919903731,
       "radialR3": 0.0009053749758353,
       "tangentialT1": -0.0001089328248685,
-      "tangentialT2": 0.0004123953124223
+      "tangentialT2": 0.0004123953124223,
+      "tle_model_y_intercept" : 5.133839,
+      "tle_model_slant_range_coeff" : 0.022061,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "parrotANAFIUSA",
@@ -1413,7 +1461,10 @@
       "radialR2": 0.0451191919903731,
       "radialR3": 0.0009053749758353,
       "tangentialT1": -0.0001089328248685,
-      "tangentialT2": 0.0004123953124223
+      "tangentialT2": 0.0004123953124223,
+      "tle_model_y_intercept" : 5.133839,
+      "tle_model_slant_range_coeff" : 0.022061,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "parrotANAFIUSA",
@@ -1429,7 +1480,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.133839,
+      "tle_model_slant_range_coeff" : 0.022061,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "parrotANAFITHERMAL",
@@ -1460,7 +1514,10 @@
       "radialR2": 0.0,
       "radialR3": 0.0,
       "tangentialT1": 0.0,
-      "tangentialT2": 0.0
+      "tangentialT2": 0.0,
+      "tle_model_y_intercept" : 5.133839,
+      "tle_model_slant_range_coeff" : 0.022061,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "parrotANAFIUA",
@@ -1475,7 +1532,10 @@
       "radialR3": 0.0009053749758353,
       "tangentialT1": -0.0001089328248685,
       "tangentialT2": 0.0004123953124223,
-      "comment": "Parrot Anafi USA Mil Sony IMX230 CMOS sensor"
+      "comment": "Parrot Anafi USA Mil Sony IMX230 CMOS sensor",
+      "tle_model_y_intercept" : 5.133839,
+      "tle_model_slant_range_coeff" : 0.022061,
+      "tle_model_slant_ratio_coeff" : 0.0
     },
     {
       "makeModel": "parrotANAFIAI",
