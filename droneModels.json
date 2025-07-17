@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Thu Jul 17 12:32:19 AM EDT 2025",
+    "lastUpdate": "Thu Jul 17 06:08:00 PM EDT 2025",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1186,9 +1186,9 @@
       "radialR3": 4.52709,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
-      "tle_model_y_intercept" : 5.45016,
-      "tle_model_slant_range_coeff" : 0.026358,
-      "tle_model_slant_ratio_coeff" : 0.0
+      "tle_model_y_intercept" : 10.0598,
+      "tle_model_slant_range_coeff" : 0.016618,
+      "tle_model_slant_ratio_coeff" : -5.378365
     },
     {
       "makeModel": "skydioVT300-L_50",
@@ -1204,9 +1204,9 @@
       "radialR3": 4.52709,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
-      "tle_model_y_intercept" : 5.45016,
-      "tle_model_slant_range_coeff" : 0.026358,
-      "tle_model_slant_ratio_coeff" : 0.0
+      "tle_model_y_intercept" : 10.0598,
+      "tle_model_slant_range_coeff" : 0.016618,
+      "tle_model_slant_ratio_coeff" : -5.378365
     },
     {
       "makeModel": "skydioVT300-Z_13",
@@ -1222,9 +1222,9 @@
       "radialR3": 0.0,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
-      "tle_model_y_intercept" : 5.45016,
-      "tle_model_slant_range_coeff" : 0.026358,
-      "tle_model_slant_ratio_coeff" : 0.0
+      "tle_model_y_intercept" : 10.0598,
+      "tle_model_slant_range_coeff" : 0.016618,
+      "tle_model_slant_ratio_coeff" : -5.378365
     },
     {
       "makeModel": "skydioVT300-Z_40IR",
@@ -1241,9 +1241,9 @@
       "radialR3": 0.0,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
-      "tle_model_y_intercept" : 5.45016,
-      "tle_model_slant_range_coeff" : 0.026358,
-      "tle_model_slant_ratio_coeff" : 0.0
+      "tle_model_y_intercept" : 10.0598,
+      "tle_model_slant_range_coeff" : 0.016618,
+      "tle_model_slant_ratio_coeff" : -5.378365
     },
     {
       "makeModel": "skydioVT300-L_40IR",
@@ -1260,9 +1260,9 @@
       "radialR3": 0.0,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
-      "tle_model_y_intercept" : 5.45016,
-      "tle_model_slant_range_coeff" : 0.026358,
-      "tle_model_slant_ratio_coeff" : 0.0
+      "tle_model_y_intercept" : 10.0598,
+      "tle_model_slant_range_coeff" : 0.016618,
+      "tle_model_slant_ratio_coeff" : -5.378365
     },
     {
       "makeModel": "autel roboticsXT701",
