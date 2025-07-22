@@ -33,9 +33,8 @@ Here is an example of a JSONObject for a particluar make/model of drone:
       "radialR3": 0.0,
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
-      "tle_model_y_intercept" : 7.6924,
-      "tle_model_slant_range_coeff" : 0.03293,
-      "tle_model_slant_ratio_coeff" : -0.70966
+      "tle_model_y_intercept" : 5.6599,
+      "tle_model_slant_range_coeff" : 0.025532,
     }
 ```
 
@@ -54,9 +53,9 @@ In this object:
 * `radialR3` represents the third radial distortion coefficient for the camera's lens. Optional
 * `tangentialT1` represents the first tangential distortion coefficient for the camera's lens. Optional
 * `tangentialT2` represents the second tangential distortion coefficient for the camera's lens. Optional
-* `tle_model_y_intercept` represents the y intercept (starting value) for the target location error linear model for this drone. Optional
+* `tle_model_y_intercept` represents the y intercept (starting value, in meters) for the target location error linear model for this drone. Optional
 * `tle_model_slant_range_coeff` represents how much (in meters) each additional meter of distance adds to target location error for this drone. Optional
-* `tle_model_slant_ratio_coeff` represents how the vertical:horizontal distance slant ratio effects target location error. May be zero in some cases. Optional
+
 
 ### Distortion parameters
 
@@ -119,15 +118,14 @@ The type correction applied depends on whether the `lensType` is either `perspec
 
 ### Target Location Error (TLE) estimation model parameters
 
-The OpenAthena software estimates target location error for its calculation output using a two-factor linear model which acounts for slant range and vertical:horizontal slant ratio. These parameters are obtained from empirical test data processed with the [OA Accuracy Testing](https://github.com/Theta-Limited/OA-Accuracy-Testing/tree/main) framework.
+The OpenAthena software estimates target location error for its calculation output using a linear model using slant range from drone to target. The y-intercept and slope values are obtained from empirical test data for each drone processed with the [OA Accuracy Testing](https://github.com/Theta-Limited/OA-Accuracy-Testing/tree/main) framework.
 
-First, outliers are removed and a two factor linear model is fitted which accounts for both slant range and slant ratio. If the effect of vertical:horizontal slant ratio is statistically-insignificant (p > 0.05), this factor is omitted and a new one factor linear model is fitted which accounts for slant range only. 
+First, outliers are removed and a linear model is fitted which accounts for slant range.
 
 Next, the Accuracy Testing framework outputs:
 
 * `tle_model_y_intercept` representing the starting value for target location error, e.g. if slant range and ratio are both at 0. This is usually around 5.25 meters, which may be attributed to the (in)accuracy of common GPS units.
 * `tle_model_slant_range_coeff` representing how much (in meters) each additional meter of distance adds to target location error for this drone. Slant range has routinely been observed as the primary factor influencing target location error. Values between 0.02 and 0.035 meters error per meter distance are typical.
-* `tle_model_slant_ratio_coeff` representing how the vertical:horizontal distance slant ratio effects target location error. This may often be a negative value given that a steeper slant angle typically results in less target location error. If this factor was determined to be statistically-insignificant for a given drone, it is replaced in the model with `0.0`.
 
 
 ## Contributing new drone models
