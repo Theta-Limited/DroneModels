@@ -124,7 +124,7 @@ First, outliers are removed and a linear model is fitted which accounts for slan
 
 Next, the Accuracy Testing framework outputs:
 
-* `tle_model_y_intercept` representing the starting value for target location error, e.g. if slant range and ratio are both at 0. This is usually around 5.25 meters, which may be attributed to the (in)accuracy of common GPS units.
+* `tle_model_y_intercept` representing the starting value for target location error, e.g. if slant range is 0. This is usually around 5.25 meters, which may be attributed to the (in)accuracy of common GPS units.
 * `tle_model_slant_range_coeff` representing how much (in meters) each additional meter of distance adds to target location error for this drone. Slant range has routinely been observed as the primary factor influencing target location error. Values between 0.02 and 0.035 meters error per meter distance are typical.
 
 
