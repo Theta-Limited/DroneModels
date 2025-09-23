@@ -215,10 +215,7 @@ When ready to submit, add and commit your changes, and push it to your fork. Fin
 
 ## Additional Information
 
-[Theta](https://theta.limited/) provides an open source UAS
-geodesy platform which enables a competitive advantage for its users.
-
-OpenAthena™ allows common drones to spot precise geodetic locations.
+[Theta](https://theta.limited/) produces software named OpenAthena™ which allows common drones to spot precise geodetic locations.
 
 [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid)
 
