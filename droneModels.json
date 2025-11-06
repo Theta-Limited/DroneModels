@@ -687,7 +687,7 @@
       "tangentialT2": 0.000158687
     },
     {
-      "makeModel": "ZH20T",
+      "makeModel": "djiZH20T",
       "isThermal": true,
       "ccdWidthMMPerPixel": "7.68d/640.0d",
       "ccdHeightMMPerPixel": "6.144d/512.0d",
