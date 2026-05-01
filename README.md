@@ -83,7 +83,7 @@ If calibration data (based on real-world calibration with a particular camera mo
 
 These two links describe the applicable mathematical formulas:
 
-https://support.pix4d.com/hc/en-us/articles/202559089-How-are-the-Internal-and-External-Camera-Parameters-defined
+https://support.pix4d.com/hc/en-us/articles/202559089
 
 https://www.mathworks.com/help/vision/ug/camera-calibration.html#:~:text=The%20intrinsic%20parameters%20represent%20the,plane%20using%20the%20intrinsics%20parameters.
 
@@ -189,7 +189,7 @@ Please see instructions in the README.md for that project for information on how
 
 Follow these instructions using the unaffiliated PIX4D software to calculate calibrations for your particular drone:
 
-https://support.pix4d.com/hc/en-us/articles/206065716-How-to-calibrate-a-Perspective-Lens-Camera
+https://web.archive.org/web/20230929033321/https://support.pix4d.com/hc/en-us/articles/206065716-How-to-calibrate-a-Perspective-Lens-Camera
 
 After calibration, all the necessary data will be available in the PIX4D `icmdb.xml` file, the location on your filesystem described here:
 
