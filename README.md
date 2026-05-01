@@ -15,7 +15,7 @@ The exit code should be 0 if the file is syntactically correct.
 
 ## License Notice
 
-   © Copyright 2025 Theta Informatics LLC
+   © Copyright 2026 Theta Informatics LLC
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
