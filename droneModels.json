@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Wed Nov  5 21:19:44 CST 2025",
+    "lastUpdate": "Sun May 24 02:57:49 PM EDT 2026",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -997,6 +997,36 @@
       "radialR3": 0.14229,
       "tangentialT1": 0.000512268,
       "tangentialT2": -0.000285157
+    },
+    {
+      "makeModel": "djiFC9113",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "0.0032049950567774065/1.0",
+      "ccdHeightMMPerPixel": "0.003202995002084883/1.0",
+      "widthPixels": 4096,
+      "heightPixels": 3072,
+      "lensType": "perspective",
+      "radialR1": 0.1805230477348418,
+      "radialR2": -0.7806723061407078,
+      "radialR3": 1.0429945697896317,
+      "tangentialT1": 0.0014211803262162,
+      "tangentialT2": -0.0021474416352891,
+      "comment": "DJI Air3s 1 in. Primary Wide Angle Camera"
+    },
+    {
+      "makeModel": "djiFC9184",
+      "isThermal": false,
+      "ccdWidthMMPerPixel": "0.002266995224285885/1.0",
+      "ccdHeightMMPerPixel": "0.002264235178930122/1.0",
+      "widthPixels": 4032,
+      "heightPixels": 3024,
+      "lensType": "perspective",
+      "radialR1": -0.1978617562041149,
+      "radialR2": 0.1716112003627773,
+      "radialR3": 0.7782764383144487,
+      "tangentialT1": 0.0019502839121294,
+      "tangentialT2": 0.0022497054452651,
+      "comment": "DJI Air3s 1/1.3 Medium Tele Camera"
     },
     {
       "makeModel": "skydioR1",
