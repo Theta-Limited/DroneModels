@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "Sun Aug 23 01:40:20 PM EDT 2026",
+    "lastUpdate": "Tue Sep  1 07:17:06 EDT 2026",
     "droneCCDParams": [
     {
       "makeModel": "djiFC220",
@@ -1920,21 +1920,6 @@
         "tangentialT1": -0.0043519152978749,
         "tangentialT2": 0.0030075461592873,
         "comment": "DJI Neo"
-    },
-    {
-       "makeModel": "djiFC9313",
-       "isThermal": false,
-       "ccdWidthMMPerPixel": "0.0029603898662589074/1.0",
-       "ccdHeightMMPerPixel": "0.002954080484047085/1.0",
-       "widthPixels": 4096,
-       "heightPixels": 3072,
-       "lensType": "perspective",
-       "radialR1": 0.2150646091377953,
-       "radialR2": -0.886985937092558,
-       "radialR3": 1.304238331266438,
-       "tangentialT1": -0.0009014934151361,
-       "tangentialT2": 0.000829757525916,
-       "comment": "DJI Mini 5 Pro, camera-calibration.py calibrated 4096x3072"
     },
     {
        "makeModel": "djiFC9313",
