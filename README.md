@@ -50,7 +50,7 @@ Here is an example of a JSONObject for a particluar make/model of drone:
       "tangentialT1": 0.0,
       "tangentialT2": 0.0,
       "tle_model_y_intercept" : 5.6599,
-      "tle_model_slant_range_coeff" : 0.025532,
+      "tle_model_slant_range_coeff" : 0.025532
     }
 ```
 
@@ -60,8 +60,8 @@ In this object:
 * `isThermal` represents whether this particular JSONObject represents the thermal or color camera of a given drone. This is used to solve name collisions in the `makeModel` String that occur when both the thermal and color cameras of a drone report the same model name despite having different parameters.
 * `ccdWidthMMPerPixel` represents the width of each pixel (in millimeters) of the drone camera's CCD/CMOS sensor which digitizes incoming light
 * `ccdHeightMMPerPixel` represents the height of each pixel (in millimeters) of the drone camera's CCD/CMOS sensor which digitizes incoming light
-* `widthPixels` represents the number of pixels in the width of a camera's uncropped, full resolution image
-* `heightPixels` represents the number of pixels in the height of a camera's uncropped, full resolution image
+* `widthPixels` represents the image width used for calibration, normally the camera's uncropped, full resolution width
+* `heightPixels` represents the image height used for calibration, normally the camera's uncropped, full resolution height
 * `comment` represents a comment from the author of the object which gives insight into the camera's corresponding drone model and properties
 * `lensType` is one of two values: `perspective` or `fisheye`, used for applying the correct correction equations for distortion of incoming light by the camera lens. Read below for further details
 * `radialR1` represents the first radial distortion coefficient for the camera's lens. Optional
@@ -75,17 +75,11 @@ In this object:
 
 ### Distortion parameters
 
-OpenAthena's basic calculation for ray angle from a selected image point is based on the [idealized pinhole camera model](https://towardsdatascience.com/camera-intrinsic-matrix-with-example-in-python-d79bf2478c12?gi=8bd7b436d2d3). This model makes no consideration of the properties of the actual camera lens, which introduces its own image distortion subtly different than may be expected by the pinhole camera model. 
+For `perspective` lenses, OpenAthena starts with the [idealized pinhole camera model](https://towardsdatascience.com/camera-intrinsic-matrix-with-example-in-python-d79bf2478c12?gi=8bd7b436d2d3). Calibration parameters can improve accuracy by correcting lens distortion; they remain optional for perspective entries.
 
-The effects of lens distortion are usually insignificant for most cameras with perspective lenses; therefore these parameters may be considered optional.
+For `fisheye` lenses, a complete calibration is required. OpenAthena Core's corrected fisheye handling uses the PIX4D camera model directly, without needing an EXIF focal length for the pixel-to-ray calculation. Keep the sensor-size fields in database entries for compatibility with other OpenAthena applications.
 
-If calibration data (based on real-world calibration with a particular camera model) is present, OpenAthena may use certain parameters to apply a mathematical correction for the distortion a particular camera lens causes. This allows the calculated ray angle for an arbitrary image point to be slightly more accurate.
-
-These two links describe the applicable mathematical formulas:
-
-https://support.pix4d.com/hc/en-us/articles/202559089
-
-https://www.mathworks.com/help/vision/ug/camera-calibration.html#:~:text=The%20intrinsic%20parameters%20represent%20the,plane%20using%20the%20intrinsics%20parameters.
+For the mathematical details, see [PIX4D's camera models](https://support.pix4d.com/hc/en-us/articles/202559089). The [MathWorks camera calibration guide](https://www.mathworks.com/help/vision/ug/camera-calibration.html) provides additional background; its fisheye coefficients are not interchangeable with PIX4D's.
 
 The type correction applied depends on whether the `lensType` is either `perspective` or `fisheye`.
 
@@ -109,7 +103,8 @@ The type correction applied depends on whether the `lensType` is either `perspec
 
 ```
 
-`fisheye` cameras have the parameters `c`, `d`, `e`, `f`, and `poly0` to `poly4`. Such an JSONObject may look like this:
+`fisheye` cameras require `c`, `d`, `e`, `f`, `poly0` to `poly4`, and the calibration image dimensions. The optional `centerX` and `centerY` fields are described below. This existing Bebop 2 entry uses the image center:
+
 ```JSON
     {
       "makeModel": "parrotBEBOP 2",
@@ -131,6 +126,16 @@ The type correction applied depends on whether the `lensType` is either `perspec
       "f": 2203.93
     }
 ```
+
+For fisheye entries:
+
+* `poly0` to `poly4` describe the PIX4D lens correction. The calibration tool exports `poly0 = 0` and `poly1 = 1`; Core requires zero `poly0` and positive `poly1`.
+* `c`, `d`, `e`, and `f` describe the image scale and shape in pixels at the calibration resolution. Include all four, even when `d` and `e` are zero. Use the converted values from the calibration tool; OpenCV's original values use a different convention.
+* `centerX` and `centerY` give the calibrated lens center in pixels, measured from the image's top-left corner. They are optional: Core defaults to half `widthPixels` and half `heightPixels`. Keep the measured values when the calibration tool provides them.
+
+Keep these values and the dimensions tied to the original calibration images. Core accounts for resizing and centered digital zoom; other crops or camera modes need a matching calibration. It rejects invalid calibrations and pixels outside the supported range, which can include fisheye image corners.
+
+Equations and conversion details are in the calibration tool's optional [technical reference](https://github.com/Theta-Limited/camera-calibration/blob/main/CALIBRATION_DETAILS.md).
 
 ### Target Location Error (TLE) estimation model parameters
 
@@ -176,13 +181,17 @@ cp pre-commit .git/hooks/
 
 #### Using Theta's [camera-calibration.py](https://github.com/Theta-Limited/camera-calibration)
 
-**For `perspective` lens types only, not `fisheye`**
+**Supports both `perspective` and `fisheye` lenses.**
 
 Theta Informatics maintains the camera-calibration.py python script which allows camera calibration to be performed automatically given a few dozen pictures of a specific pattern (White and Black checkerboard) printout:
 
 [https://github.com/Theta-Limited/camera-calibration](https://github.com/Theta-Limited/camera-calibration)
 
-Please see instructions in the README.md for that project for information on how to use these values to create a new entry in this droneModels.json
+Follow the tool's [README](https://github.com/Theta-Limited/camera-calibration#readme), using `--lens_type fisheye` for a fisheye camera. It prepares the values for DroneModels automatically. Use original photos with the same image dimensions and camera settings.
+
+Keep the generated JSON, CSV, and NPZ files together. For fisheye calibrations, review both the calibration error and the extra conversion error, and check results against known locations before contributing.
+
+Fisheye exports from older versions of the script need to be regenerated for the corrected Core model. Saved calibration data can be reused; see the [update instructions](https://github.com/Theta-Limited/camera-calibration/blob/main/CALIBRATION_DETAILS.md#updating-files-from-older-versions-of-this-script). Keep entries already in PIX4D format unchanged.
 
 
 #### (alternative) Using PIX4D
@@ -195,7 +204,7 @@ After calibration, all the necessary data will be available in the PIX4D `icmdb.
 
 https://support.pix4d.com/hc/en-us/articles/202559349-Which-Cameras-exist-in-PIX4Dmapper-Database-and-which-Parameters-are-used
 
-Finally, convert the data from the PIX4D format to the OpenAthena JSONObject convention shown previously. Rename `radialK1` to `radialR1`, `radialK2` to `radialR2`, and `radialK3` to `radialR3`.
+Finally, convert the data from the PIX4D format to the OpenAthena JSONObject convention shown previously. For perspective lenses, rename `radialK1` to `radialR1`, `radialK2` to `radialR2`, and `radialK3` to `radialR3`. The linked calibration procedure is for perspective lenses; fisheye entries must use PIX4D's fisheye parameters described above.
 
 ### (optional) perform accuracy assesment for TLE model parameters
 
